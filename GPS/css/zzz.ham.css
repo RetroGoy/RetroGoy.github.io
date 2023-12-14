@@ -1,0 +1,361 @@
+/*
+
+    Sommaire :
+
+    1. Liens polices
+    2. Polices "h*" et "p"
+    3. Base page
+    4. Header
+    5. Entête secondaire
+    6. Sous-Titre
+    7. Tableau
+    8. Partie "le saviez vous?"
+    9. Encadré
+    10. Liste à puces
+    11. Footer
+    
+*/
+
+
+
+    /* 1. Liens polices */
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+    font-family: 'futura_ptbook';
+    src: url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff2') format('woff2'), 
+         url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptdemi';
+    src: url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff2') format('woff2'), 
+         url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptbold';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptlight';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptmedium';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+p {
+    margin: 30px 0;
+    font-family: 'futura_ptbook';
+    font-size: 22px;
+
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+
+.MAJ > p {
+    font-family: 'futura_ptbook';
+    font-size: 12px;
+    color: #FB957D;
+    margin: 0;
+}
+
+    /* 3. Base page */
+
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #E7EBEF;
+}
+
+    /* 4. Header */
+
+
+header {
+  top: 0; 
+  left: 0; 
+  right: 0;
+
+  display: flex;
+  width: 100%;
+  height: 120px;
+  background-color: #303A45;
+  justify-content: space-between;
+}
+
+header img {
+  left: 0;
+  height: 65px;
+  margin: 30px 100px;
+}
+
+
+.navham {
+}
+
+.navbar {
+height: 100%;
+  right: 0;
+  display: flex;
+  padding-right: 3%;
+  background-color: #303A45;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  font-family: 'futura_ptbook';
+  font-size: 22px;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.navbar p {
+  margin-right: 10px;
+  margin-top: 0;
+}
+
+.navbar li ul {
+  position: absolute;
+  display: none;
+  height: auto;  
+  box-shadow: 0px 3px 6px #00000029;
+  top: 100px;
+}
+
+.navbar a:focus + ul {
+  display: block; 
+}
+
+.navbar ul:hover {
+  display: block; 
+}
+
+.navbar li ul li {
+  background-color: #F3F5F7;
+  margin: 0;
+  animation: gilles .3s;
+}
+
+.navbar li ul li a {
+  color: #303A45;
+  display: inline-block;
+  margin: 20px;
+  animation: gilles .3s;
+}
+
+.navbar li ul li a:hover {
+  color: #11B1A9;
+}
+
+/* animations dropdown */
+
+@keyframes gilles {
+  from {
+    font-size: 25px;
+    opacity: 0;
+    letter-spacing: 2px;
+  }
+  to {
+    opacity: 1;
+    font-size: 22px;
+    letter-spacing: 0px;
+  }
+}
+
+
+
+
+@media (max-width: 1000px) { 
+    /*Toutes les animations placées ici permettent
+    au menu hamburger de se transformer en croix 
+    quand il est ouvert mais la croix n'étant 
+    finalement pas fonctionnelle j'ai quand même 
+    décidé de laisser l'animation dans le code.
+    Nathanaël*/
+
+.navbar {
+    top: 120px;
+    position: absolute;
+    display: none;
+    height: 100%;
+}
+
+header img {
+  margin: 30px 50px;
+}
+
+.bars:focus + .navbar {
+    animation: navgain 0.1s linear 0s 1 normal forwards;
+}
+
+.navham a:focus + ul {
+  display: block;
+  height: 100%;
+}
+
+.navham ul:hover {
+  display: block; 
+}
+
+.bars {
+    margin: 200px 50px 200px 50px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.bartop {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 10px;
+    background-color: white;
+    top: 35px;
+}
+
+.bars:focus .bartop {
+    animation: top 0.2s linear 0s 1 normal forwards;
+}
+
+.beetop {
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: #303A45;
+    top: 45px;
+}
+
+.bars:focus .beetop {
+    animation: bee 0s linear 0s 1 normal forwards;
+}
+
+.barmid {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 10px;
+    background-color: white;
+    top: 55px;
+}
+
+.bars:focus .barmid {
+    animation: mid 0.1s linear 0s 1 normal forwards;
+}
+
+.beebot {
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: #303A45;
+    top: 65px;
+}
+
+.bars:focus .beebot {
+    animation: bee 0s linear 0s 1 normal forwards;
+}
+
+.barbot {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 10px;
+    background-color: white;
+    top: 75px;
+}
+
+.bars:focus .barbot {
+    animation: bot 0.2s linear 0s 1 normal forwards;
+}
+
+
+
+
+/*@keyframes bot {
+  from {
+    top: 45px;
+    transform: rotate(0deg);
+  }
+
+  to {
+    top: 50px;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes mid {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes top {
+  from {
+    top: 75px;
+    transform: rotate(0deg);
+  }
+
+  to {
+    top: 50px;
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes bee {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}*/
+
+@keyframes navgain {
+  from {
+    right: -220px;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+
+}

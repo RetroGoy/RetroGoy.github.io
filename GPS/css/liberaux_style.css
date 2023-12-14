@@ -1,0 +1,972 @@
+/*
+
+    Sommaire :
+
+    1. Liens polices
+    2. Polices "h*" et "p"
+    3. Base page
+    4. Header
+    5. Entête secondaire
+    6. Sous-Titre
+    7. Tableau
+    8. Partie "le saviez vous?"
+    9. Encadré
+    10. Liste à puces
+    11. Footer
+    
+*/
+
+
+
+    /* 1. Liens polices */
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+    font-family: 'futura_ptbook';
+    src: url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff2') format('woff2'), 
+         url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptdemi';
+    src: url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff2') format('woff2'), 
+         url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptbold';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptlight';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptmedium';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+    /* 2. Polices "h*" et "p" */
+
+
+h1 {
+    margin-left: 15px;
+    padding: 30px 0 25px 0;
+    font-family: 'futura_ptdemi';
+    font-size: 56px;
+    color: #303A45;
+
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h2 {
+    margin: 80px 0 40px 0;
+    font-family: 'futura_ptbook';
+    font-size: 48px;
+    color: #11B1A9;
+
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h3 {
+    margin: 67px 15% 0 15%;
+    font-family: 'futura_ptmedium';
+    font-size: 40px;
+    color: #303A45;
+
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h4 {
+    margin: 50px 0;
+    font-family: 'futura_ptmedium';
+    font-size: 32px;
+    color: #62788E;
+    text-decoration: underline;
+
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h5 {    
+    margin: 40px 0;
+    font-family: 'futura_ptbook';
+    font-size: 28px;
+    color: #303A45;
+    text-decoration: underline;
+
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h6 {
+    font-family: 'futura_ptbook';
+    font-size: 2vw;
+    color: #303A45;
+    text-align: center;
+    font-weight: 50;
+    margin: 22px;
+
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h7 {
+    margin: 30px 0;
+    border-bottom: 3px solid #11B1A9;
+    font-family: 'futura_ptbook';
+    font-size: 23px;
+
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h8 {
+    font-family: 'futura_ptbook';
+    font-size: 25px;
+    color: #546678;
+    position: absolute;
+    top: 180px;
+    left: 70px;
+}
+
+h8 span {
+    color: #ABB7C4;
+}
+
+
+p {
+    margin: 30px 0;
+    font-family: 'futura_ptbook';
+    font-size: 22px;
+
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.bold {
+    font-weight: 700;
+
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+
+.MAJ > p {
+    font-family: 'futura_ptbook';
+    font-size: 12px;
+    color: #FB957D;
+    margin: 0;
+}
+
+    /* 3. Base page */
+
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #E7EBEF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodi {
+    background-color: #FFF;
+    margin: 0 5% 86px 5%;
+    padding: 70px 5% 100px 5%;
+}
+
+.raul {
+    margin: 0 3em !important;
+}
+
+.navbar li ul .turkoi a {
+    color: #15D6CD;
+}
+.navbar .turkoi p {
+    color: #15D6CD;
+}
+.navbar .turkoi i {
+    color: #15D6CD;
+}
+
+    /* 4. Header */
+
+.turkoi > * {
+  color: #15D6CD !important;
+}
+
+
+header {
+  top: 0; 
+  left: 0; 
+  right: 0;
+
+  display: flex;
+  width: 100%;
+  height: 124px;
+  background-color: #303A45;
+  justify-content: space-between;
+}
+
+header img {
+  left: 0;
+  height: 65px;
+  margin: 30px 100px;
+}
+
+header .navham {
+    display: block;
+}
+
+.navbar {
+  right: 0;
+  display: flex;
+  padding-right: 3%;
+  background-color: #303A45;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  font-family: 'futura_ptbook';
+  font-size: 22px;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.navbar li a:hover {
+  color: #C3CCD5;
+}
+
+
+
+    /* 11. Footer */
+
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #303A45;
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  height: 76px;
+  padding-left: 10%;
+  margin: 0;
+  margin-top: auto ;
+}
+
+footer p {
+  color: #FFFFFF;
+  font-size: 22px;
+  margin: 0 20px;
+}
+
+footer img {
+  height: 20px;
+}
+
+@media (max-width: 768px) { 
+
+.raul {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.navsec a {
+  font-size: 24px;
+}
+
+.navsec a:hover {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.orandré {
+    margin: 40px 0 !important;
+}
+
+}
+
+
+@media (max-width: 1150px) { 
+    /*Toutes les animations placées ici permettent
+    au menu hamburger de se transformer en croix 
+    quand il est ouvert mais n'étant finalement 
+    pas fonctionnel, le code est inclus sous forme 
+    d'annotations - Nathanaël*/
+
+
+header img {
+  margin: 30px 50px;
+}
+
+.navham p {
+    margin: 0 10px 0 0;
+}
+
+.navbar li ul {
+  height: auto;  
+  box-shadow: 0px 3px 6px #00000029;
+  right: 232px;
+  min-width: 170px;
+}
+
+.navham a {
+    margin-top: 59px;
+}
+
+.navbar {
+    top: 120px;
+    position: absolute;
+    display: none;
+    height: 100%;
+}
+
+.bars:focus + .navbar {
+  animation: navgain 0.1s linear 0s 1 normal forwards;
+  display: block;
+  height: 100%;
+}
+
+.navham ul:hover {
+  display: block; 
+}
+
+@keyframes navgain {
+  from {
+    right: -220px;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+/*barres*/
+
+.bars {
+    margin: 0 50px 0 50px;
+    width: 50px;
+    height: 50px;
+}
+
+/*Les 5 barres du hamburger incluant les 2 "bee" 
+pour les barres invisibles intermédiaires permettant
+à toute l'icone d'être cliquable - Nathanaël*/
+
+.bartop {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    top: 40px;
+}
+
+/*.bars:focus .bartop {
+    animation: top 0.2s linear 0s 1 normal forwards;
+}*/
+
+.beetop {
+    position: absolute;
+    width: 60px;
+    height: 15px;
+    background-color: #303A45;
+    top: 45px;
+}
+
+/*.bars:focus .beetop {
+    animation: bee 0s linear 0s 1 normal forwards;
+}*/
+
+.barmid {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    top: 60px;
+}
+
+/*.bars:focus .barmid {
+    animation: mid 0.1s linear 0s 1 normal forwards;
+}*/
+
+.beebot {
+    position: absolute;
+    width: 60px;
+    height: 15px;
+    background-color: #303A45;
+    top: 65px;
+}
+
+/*.bars:focus .beebot {
+    animation: bee 0s linear 0s 1 normal forwards;
+}*/
+
+.barbot {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    top: 80px;
+}
+
+/*.bars:focus .barbot {
+    animation: bot 0.2s linear 0s 1 normal forwards;
+}*/
+
+
+/*@keyframes bot {
+  from {
+    top: 45px;
+    transform: rotate(0deg);
+  }
+
+  to {
+    top: 50px;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes mid {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes top {
+  from {
+    top: 75px;
+    transform: rotate(0deg);
+  }
+
+  to {
+    top: 50px;
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes bee {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}*/
+
+}
+
+/* FIN POLICES */
+
+
+
+    .odin {
+        display: flex;
+        flex-direction: column;
+        height: 727px;
+        width: 100%;
+    }
+
+.corps {
+        display: grid;
+        grid-template-columns: repeat( 6, 2fr);
+        grid-column-gap: 4.5%;
+        grid-row-gap: 10%;
+        margin: 45px 5% 100px 5%;
+    }
+
+    .square {
+        background-color: #FFFFFF;
+        box-shadow: 3px 5px 14px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+        position: relative;
+    }
+
+        .square:after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+
+    .content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+        .square img {
+            display: block;
+            margin: auto;
+            padding-top: 30%;
+        }
+
+        .content i {
+            font-size: 4em;
+            display: block;
+            margin: auto;
+            text-align: center; 
+        }
+
+        .content p {
+            text-align: center;
+            margin: 11% 0 10% 0;
+            color: black;
+        }
+
+        .content h6 {
+            margin-top: 10%;
+            font-size: 1.5em;
+            font-family: 'futura_ptdemi';
+        }
+
+        .un:hover {
+            background-color: #9B9BC8;
+        }
+
+                .un:hover .fa-family {
+                        color: #FFF;
+                    }
+
+                .un:hover h6 {
+                    color: #FFF;
+                }
+
+            .fa-family, .fa-family h6 {
+                color: #9B9BC8;
+            }
+
+
+        .deux:hover {   
+            background-color: #11B1A9;
+        }
+
+                .deux:hover .fa-house {
+                color: #FFF;
+                }
+
+                .deux:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-house {
+                color: #11B1A9;
+            }
+
+
+        .trois:hover {   
+            background-color: #FB957D;
+        }
+
+                .trois:hover .fa-notes-medical {
+                color: #FFF;
+                }
+
+                .trois:hover h6 {
+                color: #FFF;
+                }
+
+                .square:hover p {
+                color: #FFF;
+                }
+
+            .fa-notes-medical {
+                color: #FB957D;
+            }
+
+
+        .quatre:hover {   
+            background-color: #303A45;
+        }
+
+                .quatre:hover .fa-gavel {
+                color: #FFF;
+                }
+
+                .quatre:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-gavel {
+                color: #303A45;
+            }
+
+
+        .cinq:hover {   
+            background-color: #9B9BC8;
+        }
+
+                .cinq:hover .fa-tooth {
+                color: #FFF;
+                }
+
+                .cinq:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-tooth {
+                color: #9B9BC8;
+            }
+
+
+
+        .six:hover {   
+            background-color: #11B1A9;
+        }
+
+                .six:hover .fa-baby {
+                color: #FFF;
+                }
+
+                .six:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-baby {
+                color: #11B1A9;
+            }
+
+
+        .sept:hover {   
+            background-color: #FB957D;
+        }
+
+                .sept:hover .fa-calculator {
+                color: #FFF;
+                }
+
+                .sept:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-calculator {
+                color: #FB957D;
+            }
+
+
+        .huit:hover {   
+            background-color: #303A45;
+        }
+
+                .huit:hover .fa-stethoscope {
+                color: #FFF;
+                }
+
+                .huit:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-stethoscope {
+                color: #303A45;
+            }
+
+
+        .neuf:hover {   
+            background-color: #9B9BC8;
+        }
+
+                .neuf:hover .fa-scale-balanced {
+                color: #FFF;
+                }
+
+                .neuf:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-scale-balanced {
+                color: #9B9BC8;
+            }
+
+
+        .dix:hover {   
+            background-color: #11B1A9;
+        }
+
+                .dix:hover .fa-handshake {
+                color: #FFF;
+                }
+
+                .dix:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-handshake {
+                color: #11B1A9;
+            }
+
+
+        .onze:hover {   
+            background-color: #FB957D;
+        }
+
+                .onze:hover .fa-prescription-bottle-pill {
+                color: #FFF;
+                }
+
+                .onze:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-prescription-bottle-pill {
+                color: #FB957D;
+            }
+
+
+        .douze:hover {   
+            background-color: #303A45;
+        }
+
+                .douze:hover .fa-cat {
+                color: #FFF;
+                }
+
+                .douze:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-cat {
+                color: #303A45;
+            }
+
+    a {
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.corpo {
+        display: grid;
+        grid-template-columns: repeat( 2, 1fr);
+        grid-column-gap: 4.5%;
+        grid-row-gap: 0%;
+        margin: -1% 5% 10px 5%;
+}
+
+.rectangle {
+        background-color: #FFFFFF;
+        box-shadow: 3px 5px 14px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+        position: relative;
+        width: 100%;
+        height: 111px;
+}
+
+    .continent {
+        display: flex;
+        flex-direction: row;
+    }
+
+        .continent i {
+            font-size: 4em;
+            margin: 3% 0 0 21%;
+            color: #303A45;
+        }
+
+        .continent h6 {
+            margin: 5% 0 0 7%;
+            font-size: 2.5em;
+            font-family: 'futura_ptbold';
+            color: #303A45;
+        }
+
+        .continent p {
+            margin: 6% 0 0 7%;
+            color: #303A45;
+        }
+
+        .MSA:hover {
+            background-color: #11B1A9;
+        }
+
+        .MSA:active {
+            background-color: #9B9BC8;
+        }
+
+                .MSA:hover .fa-tractor {
+                        color: #FFF;
+                    }
+
+                .MSA:hover h6 {
+                    color: #FFF;
+                }
+
+                .MSA:hover p {
+                    color: #FFF;
+                }
+
+
+        .SSI:hover {   
+            background-color: #FB957D;
+        }
+
+        .SSI:active {   
+            background-color: #9B9BC8;
+        }
+
+                .SSI:hover .fa-brush {
+                color: #FFF;
+                }
+
+                .SSI:hover h6 {
+                color: #FFF;
+                }
+
+                .SSI:hover p {
+                color: #FFF;
+                }
+
+
+
+/* MODE INTERMEDIAIRE */
+@media all and (max-width: 1400px) {
+
+.corpo {
+        margin: 1% 5% 10px 5%;
+}
+
+    .odin {
+        height: 165vh;
+    }
+
+    .corps {
+        display: grid;
+        grid-template-columns: repeat( 4, 3fr);
+        grid-row-gap: 5%;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+/* MODE SMARTPHONE */
+@media all and (max-width: 992px) {
+
+    .corpo {
+      margin: 2% 5% 10px 5%;
+    }
+
+    .continent p {
+        display: none;
+    }
+
+    .continent i {
+        margin: 6% 0 0 24%;
+    }
+
+    .continent h6 {  
+        margin: 9% 0 0 9%;
+    }
+
+    .odin {
+        height: 215vh;
+    }
+
+    .corps {
+        display: grid;
+        grid-template-columns: repeat( 3, 4fr);
+        grid-row-gap: 3%;
+    }
+}
+
+@media all and (max-width: 700px) {
+
+    .odin {
+        height: 333vh;
+    }
+
+    .corpo {
+      margin: 25% 5% 10px 5%;
+    }
+
+    .continent i {
+        margin: 8% 0 0 10%;
+    }
+
+    .continent h6 {  
+        margin: 14% 0 0 7%;
+    }
+
+    .corps {
+        display: grid;
+        grid-template-columns: repeat( 2, 6fr);
+    }
+}

@@ -1,0 +1,347 @@
+
+
+    /* Formalitées et Polices */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+    font-family: 'futura_ptbook';
+    src: url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff2') format('woff2'), 
+         url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptdemi';
+    src: url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff2') format('woff2'), 
+         url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptbold';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptlight';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptmedium';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'futura_ptdemi';
+    font-size: 56px;
+    color: #303A45;
+}
+
+h2 {
+    font-family: 'futura_ptbook';
+    font-size: 48px;
+    color: #11B1A9;
+}
+
+h3 {
+    font-family: 'futura_ptmedium';
+    font-size: 40px;
+    color: #303A45;
+}
+
+h4 {
+    font-family: 'futura_ptmedium';
+    font-size: 32px;
+    color: #62788E;
+    text-decoration: underline;
+}
+
+h5 {
+    font-family: 'futura_ptbook';
+    font-size: 28px;
+    color: #303A45;
+    text-decoration: underline;
+}
+
+h6 {
+    font-family: 'futura_ptbook';
+    font-size: 2.5vw;
+    color: #303A45;
+    text-align: center;
+    font-weight: 600;
+    margin: 22px;
+    margin-top: 13%;
+}
+
+.MAJ p {
+    font-family: 'futura_ptbook';
+    font-size: 12px;
+    color: #FB957D;
+    text-align: center;
+    font-weight: 50;
+    margin: 10%;
+}
+
+/* FIN POLICES */
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+#corpsmenu {
+    background-image: url("../img/fond.svg");
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 200vh;
+}
+
+/* FIN FORMALITEES*/
+
+
+    /* ICONES ACCUEIL */
+
+    .corps {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .leftsect, .rightsect {
+        width: 50%;
+    }
+
+    .gpslogo img {
+        position: relative;
+        z-index: 4;
+        margin: 0 8% 0 4%; 
+        width: 80%;
+        padding: 4%;
+        padding-top: 10%;
+        box-shadow: 0px 3px 6px #00000029;
+        background-color: #FFF;
+        border-radius: 0 0 10px 10px;
+    }
+    
+
+    .wrapper4 {
+        display: grid;
+        grid-template-columns: repeat( 2, 2fr);
+        grid-column-gap: 7%;
+        grid-row-gap: 7%;
+        margin: 5% 4% 100px 8%;
+    }
+
+    .wrapper2 {
+        display: grid;
+        grid-template-columns: repeat( 2, 1fr);
+        grid-column-gap: 8%;
+        margin: 5.5% 8% 100px 4%;
+    }
+
+    /* EVERYTHING ABOUT SQUARE */
+
+    .square {
+        background-color: #FFFFFF;
+        box-shadow: 3px 5px 14px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+        position: relative;
+        width: 100%;
+    }
+
+        .square:after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+
+    .content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+        .content i {
+            font-size: 7em;
+            display: block;
+            margin: auto;
+            padding-top: 22%;
+            text-align: center; 
+        }
+
+        .un:hover {
+            background-color: #9B9BC8;
+        }
+
+                .un:hover .fa-briefcase {
+                        color: #FFF;
+                    }
+
+                .un:hover h6 {
+                    color: #FFF;
+                }
+
+            .fa-briefcase {
+                color: #9B9BC8;
+            }
+
+
+        .deux:hover {   
+            background-color: #FB957D;
+        }
+
+                .deux:hover .fa-user-doctor {
+                color: #FFF;
+                }
+
+                .deux:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-user-doctor {
+                color: #FB957D;
+            }
+
+
+        .trois:hover {   
+            background-color: #11B1A9;
+        }
+
+                .trois:hover .fa-object-subtract {
+                color: #FFF;
+                }
+
+                .trois:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-object-subtract {
+                color: #11B1A9;
+            }
+
+        .cinq:hover {   
+            background-color: #9B9BC8;
+        }
+
+                .cinq:hover .fa-gavel {
+                color: #FFF;
+                }
+
+                .cinq:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-gavel {
+                color: #9B9BC8;
+            }
+
+
+        .sept:hover {   
+            background-color: #FB957D;
+        }
+
+                .sept:hover .fa-key {
+                color: #FFF;
+                }
+
+                .sept:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-key {
+                color: #FB957D;
+            }
+
+
+        .huit:hover {   
+            background-color: #11B1A9;
+        }
+
+                .huit:hover .fa-phone {
+                color: #FFF;
+                }
+
+                .huit:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-phone {
+                color: #11B1A9;
+            }
+
+    a {
+        text-decoration: none;
+    }
+
+/* MODE INTERMEDIAIRE */
+@media all and (max-width: 1400px) {
+
+h6 {
+    font-family: 'futura_ptbook';
+    font-size: 2.2vw;
+    color: #303A45;
+    text-align: center;
+    font-weight: 50;
+    margin: 13%;
+}
+
+        .content i {
+            font-size: 5em;
+            display: block;
+            margin: auto;
+            padding-top: 25%;
+            text-align: center; 
+        }
+
+/* MODE SMARTPHONE */
+@media all and (max-width: 992px) {
+
+    html, body {
+        margin: 0; height: 100%; overflow-y: auto
+    }
+
+    #corpsmenu {
+        height: 175vh;
+    }
+
+    .corps {
+        flex-direction: column-reverse;
+    }
+
+    .rightsect, .leftsect {
+        width: 100%;
+        margin: 0 0 7% 0;
+    }
+
+    .wrapper4 {
+        margin: 0 5% 0 7%;
+    }
+
+    .wrapper2 {
+        margin: 0 5% 0 7%;
+    }
+
+    .logo img {
+        margin: 0 7% 7% 7%;
+    }
+
+    h6 {
+        font-family: 'futura_ptbook';
+        font-size: 4vw;
+        color: #303A45;
+        text-align: center;
+        margin: 22px;
+    }
+}

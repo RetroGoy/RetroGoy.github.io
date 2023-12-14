@@ -1,0 +1,486 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+    font-family: 'futura_ptbook';
+    src: url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff2') format('woff2'), 
+         url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptdemi';
+    src: url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff2') format('woff2'), 
+         url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptbold';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptlight';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptmedium';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'futura_ptdemi';
+    font-size: 3.3vw;
+    font-weight: 300;
+    color: #303A45;
+    padding: 1em 0 15px 0;
+}
+
+h2 {
+    font-family: futura_ptbook;
+    font-size: 2.2vw;
+    color: #303A45;
+    font-weight: 100;
+    padding: 15px 0 30px 0;
+}
+
+h3 {
+    font-family: futura_ptbook;
+    font-size: 2em;
+    color: #303A45;
+    margin: 40px 0;
+}
+
+p {
+    font-family: futura_ptbook;
+    font-size: 22px;
+    color: #303A45;
+}
+
+a {
+    font-family: futura_ptbook;
+    font-size: 1.7vw;
+    color: #303A45;
+    text-decoration: none;   
+}
+
+
+
+    /* 4. Header */
+
+.turkoi > * {
+  color: #15D6CD !important;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.turkoi > * {
+  color: #15D6CD !important;
+}
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  height: 124px;
+  background-color: #303A45;
+  justify-content: space-between;
+}
+
+header img {
+  left: 0;
+  height: 65px;
+  margin: 30px 100px;
+}
+
+header .navham {
+  display: block;
+}
+
+.navbar {
+  right: 0;
+  display: flex;
+  padding-right: 3%;
+  background-color: #303A45;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  font-family: 'futura_ptbook';
+  font-size: 22px;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.navbar li a:hover {
+  color: #C3CCD5;
+}
+
+
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #303A45;
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  height: 76px;
+  padding-left: 10%;
+  margin: 0;
+  margin-top: auto ;
+}
+
+footer p {
+  font-family: 'futura_ptbook';
+  color: #FFFFFF;
+  font-size: 22px;
+  margin: 0 20px;
+}
+
+footer img {
+  height: 20px;
+}
+
+
+
+
+@media (max-width: 1150px) { 
+    /*Toutes les animations placées ici permettent
+    au menu hamburger de se transformer en croix 
+    quand il est ouvert mais n'étant finalement 
+    pas fonctionnel, le code est inclus sous forme 
+    d'annotations - Nathanaël*/
+
+
+footer {
+    position: relative;
+}
+
+header img {
+  margin: 30px 50px;
+}
+
+.navham p {
+    margin: 0 10px 0 0;
+}
+
+.navbar li ul {
+  background-color: #546678;
+  height: auto;  
+  box-shadow: 0px 3px 6px #00000029;
+  right: 232px;
+  min-width: 170px;
+}
+
+.navham a {
+    margin-top: 59px;
+}
+
+.navbar {
+    top: 120px;
+    position: absolute;
+    display: none;
+}
+
+.bars:focus + .navbar {
+  animation: navgain 0.1s linear 0s 1 normal forwards;
+  display: block;
+  height: 100%;
+}
+
+.navham ul:hover {
+  display: block; 
+}
+
+@keyframes navgain {
+  from {
+    right: -220px;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+/*barres*/
+
+.bars {
+    margin: 0 50px 0 50px;
+    width: 50px;
+    height: 50px;
+}
+
+/*Les 5 barres du hamburger incluant les 2 "bee" 
+pour les barres invisibles intermédiaires permettant
+à toute l'icone d'être cliquable - Nathanaël*/
+
+.bartop {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    top: 40px;
+}
+
+/*.bars:focus .bartop {
+    animation: top 0.2s linear 0s 1 normal forwards;
+}*/
+
+.beetop {
+    position: absolute;
+    width: 60px;
+    height: 15px;
+    background-color: #303A45;
+    top: 45px;
+}
+
+/*.bars:focus .beetop {
+    animation: bee 0s linear 0s 1 normal forwards;
+}*/
+
+.barmid {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    top: 60px;
+}
+
+/*.bars:focus .barmid {
+    animation: mid 0.1s linear 0s 1 normal forwards;
+}*/
+
+.beebot {
+    position: absolute;
+    width: 60px;
+    height: 15px;
+    background-color: #303A45;
+    top: 65px;
+}
+
+/*.bars:focus .beebot {
+    animation: bee 0s linear 0s 1 normal forwards;
+}*/
+
+.barbot {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    top: 80px;
+}
+
+/*.bars:focus .barbot {
+    animation: bot 0.2s linear 0s 1 normal forwards;
+}*/
+
+
+/*@keyframes bot {
+  from {
+    top: 45px;
+    transform: rotate(0deg);
+  }
+
+  to {
+    top: 50px;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes mid {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes top {
+  from {
+    top: 75px;
+    transform: rotate(0deg);
+  }
+
+  to {
+    top: 50px;
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes bee {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}*/
+
+}
+
+
+
+
+
+
+.navbar p {color: white; margin-top: 3px;}
+
+.navbar i {margin-top: 0;}
+
+
+.MAJ > p {
+    font-family: 'futura_ptbook';
+    font-size: 12px;
+    color: #FB957D;
+    margin: 0;
+}
+
+
+
+
+/* FIN POLICES */
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #E7EBEF;
+    text-decoration: none;
+}
+
+.sue {
+    margin-left: 5%;
+    margin-right: 2%;
+    display: flex;
+}
+
+.ben {
+    display: flex;
+
+    width: 100%;
+    max-width: 700px;
+    height: 300px;
+
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+
+    margin-bottom: 30px;
+}
+
+.ben img {
+    width: 50px;
+    height: 50px;
+    margin: 30px 7% 0 30px;
+}
+
+.infos { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.fa-solid {
+    font-size: 28px;
+    margin: 11px 10px;
+}
+
+.infos a {
+    font-size: 22px;
+    margin: 0;
+    margin: 11px 10px;
+}
+
+.infos a:hover i {
+    color: #11B1A9;
+}
+
+.bigpic {
+    margin: 2%;
+    margin-top: 7%;
+    right: 0;
+    width: 50%;
+}
+
+
+@media (max-width: 992px) {
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .sue {
+        margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ben {
+}
+
+.infos { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.infos a:hover i {
+    color: #11B1A9;
+}
+
+.bigpic {
+    margin: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 70%;
+}
+
+}
+
+
+/* fin anim et barre de nav */
+
+
+.infos a {
+    font-size: 1.35em;
+}
+

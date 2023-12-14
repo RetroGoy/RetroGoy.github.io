@@ -1,0 +1,802 @@
+/*
+
+    Sommaire :
+
+    1. Liens polices
+    2. Polices "h*" et "p"
+    3. Base page
+    4. Header
+    5. Entête secondaire
+    6. Sous-Titre
+    7. Tableau
+    8. Partie "le saviez vous?"
+    9. Encadré
+    10. Liste à puces
+    11. Footer
+
+*/
+/* 1. Liens polices */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: 'futura_ptbook';
+  src: url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff2') format('woff2'),
+    url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futura_ptdemi';
+  src: url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff2') format('woff2'),
+    url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futura_ptbold';
+  src: url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff2') format('woff2'),
+    url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futura_ptlight';
+  src: url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff2') format('woff2'),
+    url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futura_ptmedium';
+  src: url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff2') format('woff2'),
+    url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 2. Polices "h*" et "p" */
+h1 {
+  margin-left: 15px;
+  padding: 30px 0 25px 0;
+  font-family: 'futura_ptdemi';
+  font-size: 56px;
+  color: #303A45;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h2 {
+  margin: 80px 0 40px 0;
+  font-family: 'futura_ptbook';
+  font-size: 45px;
+  color: #11B1A9;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h3 {
+  margin: 67px 7% 0 7%;
+  font-family: 'futura_ptmedium';
+  font-size: 37px;
+  color: #303A45;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h4 {
+  margin: 50px 0;
+  font-family: 'futura_ptmedium';
+  font-size: 25px;
+  color: #62788E;
+  text-decoration: underline;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h5 {
+  margin: 40px 0;
+  font-family: 'futura_ptbook';
+  font-size: 22px;
+  color: #303A45;
+  text-decoration: underline;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h6 {
+  font-family: 'futura_ptbook';
+  font-size: 2vw;
+  color: #303A45;
+  text-align: center;
+  font-weight: 500;
+  margin: 22px;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h7 {
+  margin: 30px 0;
+  border-bottom: 3px solid #11B1A9;
+  font-family: 'futura_ptbook';
+  font-size: 22px;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h8 {
+  font-family: 'futura_ptbook';
+  font-size: 25px;
+  color: #546678;
+  position: absolute;
+  top: 180px;
+  left: 70px;
+}
+
+h8 a {
+  text-decoration: none;
+  color: #546678;
+}
+
+h8 span {
+  color: #ABB7C4;
+}
+
+p {
+  margin: 20px 0;
+  font-family: 'futura_ptbook';
+  font-size: 20px;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  line-height: 1.5em;
+}
+
+.bold {
+  font-weight: 700;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.math {
+  color: #FA7555;
+}
+
+.mat {
+}
+
+/* 3. Base page */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #E7EBEF;
+}
+
+.bodi {
+  background-color: #FFF;
+  margin: 0 5% 0 5%;
+  padding: 70px 5% 70px 5%;
+/*border-radius: 0 0 7px 7px;*/
+}
+
+.marg {
+  border-radius: 10px 10px 0 0;
+  margin-top: 50px;
+}
+
+/*.raul {
+  margin: 0 7em !important;
+}*/
+
+/* 4. Header */
+
+.turkoi > * {
+  color: #15D6CD !important;
+}
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  height: 124px;
+  background-color: #303A45;
+  justify-content: space-between;
+}
+
+header img {
+  left: 0;
+  height: 65px;
+  margin: 30px 100px;
+}
+
+header .navham {
+  display: block;
+}
+
+.navbar {
+  right: 0;
+  display: flex;
+  padding-right: 3%;
+  background-color: #303A45;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  font-family: 'futura_ptbook';
+  font-size: 22px;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.navbar li a:hover {
+  color: #C3CCD5;
+}
+
+.b2top {
+  color: #303A45;
+  background-color: #E7EBEF;
+  font-size: 30px;
+  text-decoration: none;
+  list-style-type: none;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.b2top:hover {
+  animation: flaich 0.15s linear 0s 1 normal forwards;
+}
+
+@keyframes flaich {
+  from {
+    color: #303A45;
+    background-color: #E7EBEF;
+  }
+
+  to {
+    color: #E7EBEF;
+    background-color: #303A45;
+  }
+}
+
+/* 5. Entête secondaire */
+.navsec {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 5% 0 5%;
+  padding-top: 100px;
+}
+
+.navsec a {
+  border-radius: 10px 10px 0 0;
+  background-color: #F3F5F7;
+  padding: 30px 3px 0 3px;
+  width: 25%;
+  height: 70px;
+  text-align: center;
+  font-family: Futura_PTBook;
+  font-size: 32px;
+  color: #8496A9;
+  border-bottom: 5px solid #F3F5F7;
+  text-decoration: none;
+  color: #000;
+}
+
+.navsec a:active {
+  background-color: #FFF;
+  font-family: Futura_PTMedium;
+  font-size: 32px;
+  color: #303A45;
+}
+
+.navsec a:hover {
+  background-color: #FFF;
+  font-family: Futura_PTMedium;
+  font-size: 32px;
+  color: #303A45;
+  border-bottom: 5px solid #FFF;
+}
+
+.navsec .navactif {
+  border-bottom: 5px solid #11B1A9 !important;
+  background-color: #FFF;
+  font-family: Futura_PTMedium;
+}
+
+/* 6. Sous-Titre */
+
+.soustitre {
+  display: flex;
+  margin: 0;
+}
+
+.soustitre .georges {
+  color: white;
+  background-color: #8496A9;
+  padding: 22px;
+  font-size: 21px;
+  margin: 10px 0;
+  font-family: Futura_PTbook;
+  border-radius: 4px 0 0 4px;
+}
+
+.soustitre .gepeto {
+  color: black;
+  background-color: #E7EBEF;
+  padding: 22px 0 22px 22px;
+  font-size: 21px;
+  margin: 10px 0;
+  font-family: Futura_PTbook;
+  width: 100%;
+  border-radius: 0 4px 4px 0;
+}
+
+/* 7. Tableau */
+
+.bodi table {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 3px 8px #00000029;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.bodi td, th {
+  border: none;
+  padding: 1em 1em;
+  margin: auto;
+  vertical-align: middle;
+  font-family: 'futura_ptbook';
+  font-size: 18px;
+  text-align: center;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  line-height: 1.5em;
+}
+
+.bodi td {
+  background-color: #F3F5F7;
+  color: #303A45;
+}
+
+.bodi tr {
+  border-bottom: 1px #BDBDBD solid;
+}
+
+.bodi tr:last-child {
+  border-bottom: none;
+}
+
+.bodi td {
+  border-right: 1px #BDBDBD solid;
+}
+
+.bodi td:last-child {
+  border-right: none;
+}
+
+table .ndtop td {
+  background-color: #7B8FA355;
+  font-size: 22px;
+}
+
+table .rdtop {
+  background-color: #7B8FA330;
+}
+
+table .strongcell {
+  font-weight: 600;
+}
+
+table .borderight {
+  border-right: 1px #BDBDBD solid !important;
+}
+
+th {
+  font-size: 22px;
+  font-family: 'futura_ptbold';
+}
+
+thead {
+  background-color: #7B8FA3;
+  color: #fff;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+tbody {
+  border-radius: 1em;
+  overflow: hidden;
+  min-width: 100%;
+}
+
+table {
+  min-width: 70%;
+}
+
+.tabpadd {
+  margin-top: 80px !important;
+}
+
+
+/* 8. Partie "le saviez vous?" */
+
+.brainsection {
+  margin: 50px 0;
+}
+
+.brainsection p {
+  border: 3px dashed #FB957D;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Futura_PTbook;
+  font-size: 20px;
+}
+
+.brainsection img {
+  left: 5.5%;
+  position: absolute;
+}
+
+.star {
+  font-size: 20px;
+  color: #FB957D;
+}
+
+/* 9. Encadré */
+.encadr {
+  background-color: #F3F5F7;
+  box-shadow: 1px 4px 12px #00000029;
+  border-radius: 15px;
+  opacity: 0.8;
+  padding: 20px;
+}
+
+.orandr {
+  box-shadow: 2px 2px 0px #00000020;
+  background-color: #fc9d86;
+  border-radius: 1px;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.25em;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  font-family: 'Futura_PTbold';
+  margin: 40px 0 !important;
+}
+
+/* 10. Liste à puces */
+.puces {
+  list-style-type: none;
+  margin: 20px 0 40px 0;
+  padding: 20px 20px 30px 20px;
+  border: 1px solid #62788E;
+  background-color: #F3F5F7;
+  border-radius: 5px;
+}
+
+.puces li {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.puces p {
+  margin: 10px 0 0 20px;
+}
+
+.cercle {
+  margin-top: 20px;
+  width: 12px;
+  height: 12px;
+  background-color: #11B1A9;
+  position: absolute;
+  border-radius: 3px;
+}
+
+.trait {
+/*  width: 15px;
+  height: 20px;
+  margin-left: 32px;
+  background-color: #11B1A980;
+  border-radius: 25%;*/
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+/*Pour les cas exeptionnels de liste à puces
+dans une autre liste à puces. 
+"cnbf-vie" ≃80% de la page (entre autres) */
+.puces .puces li {
+}
+
+.puces .puces .trait {
+  background-color: #FFE87A;
+}
+
+.noid {
+  margin-top: 10px;
+}
+
+.underligne {
+  border-bottom: 1px solid black;
+}
+
+/* Cliquable */
+.hyptxt {
+  text-decoration: none;
+  color: #FB957D;
+  font-size: 23px;
+}
+
+.hyptxt:hover {
+  padding-left: 3px;
+  border-left: 5px solid #FB957D;
+  animation: hypr 0.02s linear 0s 1 normal forwards;
+}
+
+@keyframes hypr {
+  from {
+  border-left: 0px solid #FB957D;
+  }
+
+  to {
+  border-left: 5px solid #FB957D;
+  }
+}
+
+/*pour l'hypertext dans du texte*/
+.hyptxte {
+  text-decoration: none;
+  color: #FB957D;
+  font-size: 23px;
+}
+
+.hyptxte:hover {
+  border-bottom: #11B1A9 solid 3px;
+}
+.nohyp {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nohyp p {
+  box-shadow: 3px 6px 2px #CCC;
+}
+
+.nohyp:hover p {
+  animation: clicksomm 0.04s linear 0s 1 normal forwards;
+}
+
+
+@keyframes clicksomm {
+  from {
+    box-shadow: 5px 5px 5px #CCC;
+  }
+
+  to {
+    box-shadow: 0px 0px 0px #CCC;
+  }
+}
+
+/*.nohyp p:first-child {
+  border-right: none;
+}
+
+.nohyp p:last-child {
+  border-left: none;
+}*/
+
+/* 11. Footer */
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #303A45;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 76px;
+  padding-left: 10%;
+}
+
+footer p {
+  color: #FFFFFF;
+  font-size: 22px;
+  margin: 0 20px;
+}
+
+footer img {
+  height: 20px;
+}
+
+/* XAVIER */
+footer a {
+  position: absolute;
+  left: -45px;
+}
+
+a img {
+  height: 65px;
+}
+
+footer:hover a {
+  animation: xavier 0.4s linear 0.5s 1 normal forwards;
+}
+
+@keyframes xavier {
+  from {
+    left: -45px;
+  }
+
+  to {
+    left: -13px;
+    transform: rotate(20deg);
+  }
+}
+
+
+/*RESPONSIVE*/
+
+
+@media (max-width: 768px) {
+  .raul {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .navsec a {
+    font-size: 24px;
+  }
+
+  .navsec a:hover {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .brainsection img {
+    display: none;
+  }
+}
+
+@media (max-width: 1150px) {
+
+  header img {
+    margin: 30px 50px;
+  }
+
+  .navham p {
+    margin: 0 10px 0 0;
+  }
+
+  .navbar li ul {
+    background-color: #546678;
+    height: 1000vh;
+    box-shadow: 0px 3px 6px #00000029;
+    right: 232px;
+    min-width: 170px;
+  }
+
+  .navham a {
+    margin-top: 59px;
+  }
+
+  .navbar {
+    top: 120px;
+    position: absolute;
+    display: none;
+    border-radius: 0 0 0 33px;
+  }
+
+  .bars:focus+.navbar {
+    animation: navgain 0.1s linear 0s 1 normal forwards;
+    display: block;
+    height: 100%;
+  }
+
+  .navham ul:hover {
+    display: block;
+  }
+
+  @keyframes navgain {
+    from {
+      right: -220px;
+    }
+
+    to {
+      right: 0px;
+    }
+  }
+
+  /*barres*/
+  .bars {
+    margin: 0 50px 0 50px;
+    width: 50px;
+    height: 50px;
+  }
+
+  /*Les 5 barres du hamburger incluant les 2 "bee"
+pour les barres invisibles intermédiaires permettant
+à toute l'icone d'être cliquable*/
+
+  .bartop {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    top: 40px;
+  }
+
+  .beetop {
+    position: absolute;
+    width: 60px;
+    height: 15px;
+    background-color: #303A45;
+    top: 45px;
+  }
+
+  .barmid {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    top: 60px;
+  }
+
+  .beebot {
+    position: absolute;
+    width: 60px;
+    height: 15px;
+    background-color: #303A45;
+    top: 65px;
+  }
+
+  .barbot {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    top: 80px;
+  }
+
+}

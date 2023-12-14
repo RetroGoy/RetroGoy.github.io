@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>GPS - CIPAV</title>
+    <meta name="viewport">
+    <meta name="author" content="">
+    <link href="../../css/gilles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62ce91136a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../../logo/favicon01.png">
+  </head>
+  <body>
+    <header> <a href="../../index.html"> <img src="../../logo/Logo-header.png">
+      </a>
+      <div class="navham"> <a href="#" class="bars">
+          <div class="bartop"></div>
+          <div class="beetop"></div>
+          <div class="barmid"></div>
+          <div class="beebot"></div>
+          <div class="barbot"></div>
+        </a>
+        <ul class="navbar">
+          <li> <a href="../../index.html">Accueil</a> </li>
+          <li> <a href="../../salaries/salaries-aff.html">Salariés</a> </li>
+          <li class="turkoi"> <a href="../../tns/lib%C3%A9raux.html">TNS</a> </li>
+          <li> <a href="../../dispositifs/Loi_Pacte_nouveaux_PER.html">Dispositifs
+              communs</a> </li>
+          <li> <a href="../../mots_cles.html">Mots clés</a> </li>
+          <li> <a href="../../impact.html">Impact social du statut</a> </li>
+          <li> <a href="../../contact.html">Contact</a> </li>
+        </ul>
+      </div>
+    </header>
+    <h8>TNS <span>|</span> <a href="../lib%C3%A9raux.html">Libéraux</a> <span>|</span>
+      CIPAV</h8> <a class="b2top" href="#top"> <i class="fa-solid fa-up"></i>
+    </a>
+    <div class="navsec"> <a href="cipav-aff.html">Affiliation</a> <a href="cipav-cot.html">Cotisations</a>
+      <a href="#" class="navactif">Droits durant la vie</a> <a href="cipav-mor.html">Droits
+        en cas de décès</a> </div>
+    <div class="bodi">
+      <h1>Les droits durant la vie</h1>
+      <a class="soustitre raul nohyp" href="#1">
+        <p class="georges">1.</p>
+        <p class="gepeto">La prévoyance</p>
+      </a> <a class="soustitre raul nohyp" href="#2">
+        <p class="georges">2.</p>
+        <p class="gepeto">La retraite</p>
+      </a>
+      <div id="prestationAP1"> <h9></h9>
+        <h2><span id="1" class="chiffre">1. </span>La prévoyance</h2>
+        <h3><span class="lettre">A - </span>L'incapacité temporaire : les
+          indemnités journalières</h3>
+        <p>En cas de maladie ou d'accident, et à l'instar des autres
+          professionnels libéraux relevant de la CNAVPL, les affiliés de la
+          CIPAV ont droit à des indemnités journalières du 3ème au 90ème jour
+          d'arrêt de travail.</p>
+        <p>Durant les trois premiers mois d'arrêt, l'assuré perçoit une
+          indemnité égale à 1/730ème de son revenu professionnel, plafonné à 3
+          PASS. Ainsi :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>L'indemnité journalière minimale est de 24&nbsp;€/jour en 2023.
+              Elle est servie aux professionnels qui s'acquittent de la
+              cotisation minimale ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> L'indemnité journalière maximale, servie aux professionnels dont
+              le revenu est supérieur ou égal à 3 PASS, est de
+              180,79&nbsp;€/jour en 2023.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <h3><span class="lettre">B - </span>L'incapacité permanente :</h3>
+        <br>
+        <p class="bold">En cas d'invalidité permanente partielle ou totale une
+          pension est versée à l'assuré. </p>
+        <p>Son montant ne dépend plus de la classe de cotisation mais se
+          décompose en 2 parties depuis le 01/01/2023 :</p>
+        <p><b>-une prestation proportionnelle</b> calculée à partir de la
+          cotisation convertie en points invalidité / décès. <br>
+        </p>
+        <p>-une prestation forfaitaire déterminée en référence au PASS (5% soit
+          2199,6&nbsp;€ en 2023) vient s'ajouter à la prestation
+          proportionnelle.</p>
+        <p>La valeur de service du point invalidité / décès est égale à
+          2,89&nbsp;€ et la valeur d'achat du point est égale à 0,013&nbsp;€.</p>
+        <p class="bold">L'invalidité partielle :</p>
+        <p>En cas d'invalidité partielle permanente, à un taux au moins égal à
+          66&nbsp;%, une pension est versée à l'assuré.</p>
+        <p>Montant de la prestation invalidité partielle (66%) :</p>
+        <ul class="puces">
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>&nbsp;basée sur la cotisation minimale : 5 432,10&nbsp;€ ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>&nbsp;basée sur la cotisation maximale : 21 353,5&nbsp;€.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p class="bold">L'invalidité totale :</p>
+        <p>En cas d'invalidité totale et permanente, à un taux de 100&nbsp;%,
+          une pension est versée à l'assuré.</p>
+        <p>Montant de la prestation invalidité totale :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>basée sur la cotisation minimale : 8 230,45&nbsp;€</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>basée sur la cotisation maximale : 32 353,9&nbsp;€</p>
+          </li>
+          <div class="trait"></div>
+        </ul>
+        <p class="bold">Le besoin d'une tierce personne :</p>
+        <p>Aucune prestation n'est servie au titre d'une tierce personne.</p>
+      </div>
+      <div id="retraite">
+        <h2><span id="2" class="chiffre">2. </span>La retraite</h2>
+        <h9></h9>
+        <h3><span class="lettre">A - </span>Le régime de base</h3>
+        <p>Le montant de la pension de retraite versée dépend de plusieurs
+          paramètres : </p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>nombre de points acquis par l'assuré ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> valeur du point ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> taux de liquidation variable en fonction de la durée
+              d'assurance.</p>
+          </li>
+        </ul>
+        <p class="orandr">Valeur du point : 0,6076&nbsp;€ en 2023</p>
+        <p>L'acquisition du nombre de points diffère selon la période d'activité
+          : Avant le 1er Janvier 2004 : chaque trimestre validé antérieurement à
+          cette date donne droit à 100 points Depuis le 1er Janvier 2004 : le
+          nombre de points acquis est déterminé en fonction des revenus soumis à
+          cotisations. Ainsi :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>en tranche T1 : les assurés qui payent une cotisation sur la
+              tranche T1 obtiennent 525 points ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> en tranche T2 : les assurés qui payent une cotisation sur la
+              tranche T2 obtiennent 25 points supplémentaires.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p>Pour chacune de ces tranches, le nombre de points attribué est
+          calculé au prorata de la cotisation effective sur la cotisation
+          maximale.</p>
+        <p>Des points supplémentaires peuvent être attribués :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>en cas de rachat de trimestres, dans la limite de 12 trimestres ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>pour un accouchement (100 points supplémentaires accordés pour le
+              trimestre civil pendant lequel a lieu l’accouchement) ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> pour recours à une tierce personne en cas d'invalidité (200
+              points par an). L'assuré reconnu comme étant en incapacité
+              d'exercer, soit pour une durée continue supérieure à 6 mois, soit
+              pour une durée totale de 6 mois au cours de la même année civile,
+              est exonéré de 100&nbsp;% de la cotisation annuelle et bénéficie
+              de 400 points de retraite gratuits, pour une année pleine.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <h4>Âge d'ouverture des droits et durée d'assurance :</h4>
+        <p>L'âge légal de départ en retraite est l'âge à partir duquel l'assuré
+          peut procéder à la liquidation de ses droits à retraite. Il dépend de
+          l'année de naissance de l'assuré et a été réhaussé à 64 ans pour les
+          générations nées à partir de 1968 selon le calendrier suivant :</p>
+        <table>
+          <thead class="raul">
+            <tr>
+              <th>Générations</th>
+              <th>Age légal de départ à la retraite</th>
+              <th>Age de départ à la retraite à taux plein</th>
+              <th>Nombre de trimestres d'assurance requis pour le taux plein</th>
+            </tr>
+          </thead>
+          <tbody class="raul">
+            <tr>
+              <td>1955 à 1957</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>166</td>
+            </tr>
+            <tr>
+              <td>1958 à 1960</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>167</td>
+            </tr>
+            <tr>
+              <td>1er janvier-31 août 1961</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>168</td>
+            </tr>
+            <tr>
+              <td>1er septembre-31 décembre 1961</td>
+              <td>62 ans et 3 mois</td>
+              <td>67 ans</td>
+              <td>169</td>
+            </tr>
+            <tr>
+              <td>1962</td>
+              <td>62 ans et 6 mois</td>
+              <td>67 ans</td>
+              <td>169</td>
+            </tr>
+            <tr>
+              <td>1963</td>
+              <td>62 ans et 9 mois</td>
+              <td>67 ans</td>
+              <td>170</td>
+            </tr>
+            <tr>
+              <td>1964</td>
+              <td>63 ans</td>
+              <td>67 ans</td>
+              <td>171</td>
+            </tr>
+            <tr>
+              <td>1965</td>
+              <td>63 ans et 3 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>1966</td>
+              <td>63 ans et 6 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>1967</td>
+              <td>63 ans et 9 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>A partir de 1968</td>
+              <td>64 ans</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+          </tbody>
+        </table>
+        <h9></h9>
+        <h3><span class="lettre">B - </span>Les situations particulières dans
+          le régime de base</h3>
+        <p>Lorsque l'assuré demande la liquidation de sa retraite de base avant
+          l'âge automatique du taux plein (67 ans) sans totaliser la durée
+          d'assurance requise, un coefficient de minoration - ou décote - de
+          1,25&nbsp;% sera appliqué pour chaque trimestre manquant, ceci, dans
+          la limite de 20 trimestres, soit 25&nbsp;% du montant maximal.</p>
+        <p>Si l'assuré poursuit son activité tandis qu'elle a atteint l'âge
+          légal de départ en retraite et qu'elle totalise la durée d'assurance
+          requise pour bénéficier d'une retraite de base à taux plein, elle
+          pourra bénéficier d'une surcote au moment de son départ en retraite,
+          c'est-à-dire d'une majoration de 0,75&nbsp;% partrimestre
+          supplémentaire cotisé.</p>
+        <h9></h9>
+        <h3><span class="lettre">C - </span>Le régime complémentaire</h3>
+        <p>La retraite complémentaire de la CIPAV peut être demandée :</p>
+        <p>- À partir de 67 ans : à taux plein ; avec une majoration de 5&nbsp;%
+          par année pleine de report différé si, à 65 ans, l'assuré réunit 30
+          années d'affiliation à la CIPAV ; </p>
+        <p>- De 62 à 65 ans : à taux plein, en fonction de l'année de naissance
+          et si la pension du régime de base a été liquidée à taux plein ; avec
+          le même abattement que celui appliquée à la retraite de base ou avec
+          une minoration définitive de 5&nbsp;% par année d'anticipation si la
+          retraite de base n'a pas été liquidée ; </p>
+        <p>- Avant 62 ans : lorsque l'assuré a liquidé sa retraite de base pour
+          carrière longue ou au titre du handicap.</p>
+        <h9></h9>
+        <p>Pour bénéficier de la retraite complémentaire, l'assuré doit être à
+          jour de ses cotisations et majorations de retard.</p>
+        <p>La retraite complémentaire de la CIPAV fonctionne en points acquis
+          via le versement de cotisations.</p>
+        <p>Lors de la liquidation de la pension de retraite complémentaire, le
+          montant s'établit selon la formule suivante :</p>
+        <p>Montant de la retraite : valeur du point de retraite <span class="mat">×</span>
+          nombre des points acquis</p>
+        <p class="orandr">Valeur du point : 2,77&nbsp;€ en 2023</p>
+        <p>Le montant de la pension est majoré de 10&nbsp;% pour les adhérents
+          ayant eu ou élevé au moins 3 enfants pendant 9 ans, jusqu'à leur 16ème
+          anniversaire.</p>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright</p>
+      <img src="../../picto/copyright-white.svg">
+      <p>2023 Factorielles</p>
+    </footer>
+  </body>
+</html>

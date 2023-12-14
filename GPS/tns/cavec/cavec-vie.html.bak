@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>GPS - CAVEC</title>
+    <meta name="viewport">
+    <meta name="author" content="">
+    <link href="../../css/gilles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62ce91136a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../../logo/favicon01.png">
+  </head>
+  <body>
+    <header> <a href="../../index.html"> <img src="../../logo/Logo-header.png">
+      </a>
+      <div class="navham"> <a href="#" class="bars">
+          <div class="bartop"></div>
+          <div class="beetop"></div>
+          <div class="barmid"></div>
+          <div class="beebot"></div>
+          <div class="barbot"></div>
+        </a>
+        <ul class="navbar">
+          <li> <a href="../../index.html">Accueil</a> </li>
+          <li> <a href="../../salaries/salaries-aff.html">Salariés</a> </li>
+          <li class="turkoi"> <a href="../../tns/lib%C3%A9raux.html">TNS</a> </li>
+          <li> <a href="../../dispositifs/Loi_Pacte_nouveaux_PER.html">Dispositifs
+              communs</a> </li>
+          <li> <a href="../../mots_cles.html">Mots clés</a> </li>
+          <li> <a href="../../impact.html">Impact social du statut</a> </li>
+          <li> <a href="../../contact.html">Contact</a> </li>
+        </ul>
+      </div>
+    </header>
+    <h8>TNS <span>|</span> <a href="../lib%C3%A9raux.html">Libéraux</a> <span>|</span>
+      CAVEC</h8> <a class="b2top" href="#top"> <i class="fa-solid fa-up"></i>
+    </a>
+    <div class="navsec"> <a href="cavec-aff.html">Affiliation</a> <a href="cavec-cot.html">Cotisations</a>
+      <a href="#" class="navactif">Droits durant la vie</a> <a href="cavec-mor.html">Droits
+        en cas de décès</a> </div>
+    <div class="bodi">
+      <h1>Les droits durant la vie</h1>
+      <a class="soustitre raul nohyp" href="#1">
+        <p class="georges">1.</p>
+        <p class="gepeto">La prévoyance</p>
+      </a> <a class="soustitre raul nohyp" href="#2">
+        <p class="georges">2.</p>
+        <p class="gepeto">La retraite</p>
+      </a>
+      <div id="prestationAP1"> <h9></h9>
+        <h2><span id="1" class="chiffre">1. </span>La prévoyance</h2>
+        <h3><span class="lettre">A - </span>L'incapacité temporaire : les
+          indemnités journalières</h3>
+        <h4>Indemnités journalières versées par la CNAVPL :</h4>
+        <p>En cas de maladie ou d'accident, et à l'instar des autres
+          professionnels libéraux relevant de la CNAVPL, les affiliés de la
+          CAVEC ont droit à des indemnités journalières du 3ème au 90ème jour
+          d'arrêt de travail.</p>
+        <p>Durant les trois premiers mois d'arrêt, l'expert-comptable perçoit
+          une indemnité égale à 1/730ème de son revenu professionnel, plafonné à
+          3 PASS. Ainsi :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>L'indemnité journalière minimale est de 24 €/jour en 2023. Elle
+              est servie aux professionnels qui s'acquittent de la cotisation
+              minimale ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> L'indemnité journalière maximale, servie aux professionnels dont
+              le revenu est supérieur ou égal à 3 PASS, est de 169 €/jour en
+              2023.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <h4>Indemnités journalières versées par la CAVEC :</h4>
+        <p>La CAVEC verse des indemnités journalières (IJ) en cas d'arrêt de
+          travail de l'assuré après un délai de carence de 90 jours.</p>
+        <p>En 2023, le montant de l'IJ versée du 9ème jour au 36ème mois s'élève
+          à 110 € par jour quelque soit la classe de cotisation.</p>
+        <p class="bold">Conditions d'attribution :</p>
+        <p>Une indemnité journalière est accordée à l'adhérent cotisant en cas
+          de cessation d'activité pour cause de maladie ou d'accident (à
+          l'exclusion des accidents survenus du fait de guerre) le rendant
+          temporairement incapable d'exercer l'activité d'expert comptable ou de
+          commissaire aux comptes, que ce soit à titre thérapeutique,
+          d'expertise, de conseil ou d'enseignement, sous réserve :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>D'être à jour du règlement de l'ensemble des cotisations ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> De rester inscrit au tableau du conseil de l'ordre.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p class="bold">Ouverture des droits :</p>
+        <p>Le bénéfice de l'IJ est accordé au 91ème jour qui suit le début de
+          l'incapacité d'exercer pour l'adhérent à jour de ses cotisations.</p>
+        <p>Si l'adhérent n'est pas à jour de ses cotisations, le bénéfice de
+          l'indemnité journalière prend effet à partir du 31e jour suivant la
+          date du règlement des cotisations.</p>
+        <p class="bold">Modalité de paiement de l'indemnité journalière :</p>
+        <p>L'indemnité journalière est payable mensuellement, à terme échu, sous
+          réserve de la présentation d'un certificat médical constatant la
+          continuité de l'incapacité totale d'exercice, et chaque mois, d'une
+          attestation sur l'honneur de n'avoir effectué aucun acte relevant de
+          l'exercice de la profession d'expert-comptable ou de commissaire aux
+          comptes, ni aucun travail rémunéré sous quelque forme que ce soit
+          pendant la période d'incapacité.</p>
+        <h9></h9>
+        <p class="bold">Cessation de l'indemnité journalière :</p>
+        <p>Le service de l'indemnité journalière cesse :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p> Soit après une période continue de 36 mois ou une période
+              cumulée de trois fois 365 jours à partir de la date d'effet de la
+              prestation ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Soit en cas de décès du bénéficiaire ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Soit en cas de reprise de l'activité même partielle ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Soit en cas de radiation du régime d'assurance invalidité-décès,
+              à partir du premier jour du trimestre civil suivant celle-ci ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Soit sur décision de la commission d'inaptitude qui statue sur
+              l'incapacité professionnelle totale permanente ou sur la
+              reconnaissance de l'inaptitude pour les adhérents atteignant l'âge
+              légal minimal d'ouverture des droits à la retraite ; et/ou - sur
+              les conditions de reprise de l'activité professionnelle ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Soit en cas de liquidation de la retraite.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <h3><span class="lettre">B - </span>L'incapacité totale :</h3>
+        <p>En cas d’invalidité totale depuis au moins 6 mois, l’expert comptable
+          peut prétendre à une rente annuelle dont le montant dépend de sa
+          classe de cotisation. La rente est servie jusqu’à la liquidation de la
+          retraite.</p>
+        <p>Le taux d'invalidité est déterminé en calculant la moyenne
+          arithmétique du taux d'invalidité fonctionnelle et du taux
+          d'invalidité professionnelle. Si l'invalidité est inférieure à 100 %,
+          le montant de la pension sera proportionnellement réduit.</p>
+        <p>Aucune pension n'est versée en cas de taux inférieur à 66 %.</p>
+        <p>Les montants 2023 des pensions d'invalidité sont établis ainsi :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Classe 1 : 11 405 €</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>Classe 2 : 15 206 €</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>Classe 3 : 30 413 €</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>Classe 4 : 45 619 €</p>
+          </li>
+        </ul>
+        <p>La pension d'invalidité est versée tous les mois, à terme échu.</p>
+        <p class="bold">Le besoin d'une tierce personne :</p>
+        <p>Il n'y a pas de majoration prévue en cas de recours à une tierce
+          personne.</p>
+      </div>
+      <div id="retraite">
+        <h2><span id="2" class="chiffre">2. </span>La retraite</h2>
+        <h9></h9>
+        <h3><span class="lettre">A - </span>Le régime de base</h3>
+        <p>Le montant de la pension de retraite versée à l'expert-comptable
+          dépend de plusieurs paramètres :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>nombre de points acquis par l'assuré ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> valeur du point ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> taux de liquidation variable en fonction de la durée
+              d'assurance.</p>
+          </li>
+        </ul>
+        <p class="orandr">Valeur du point : 0,6076 € en 2023</p>
+        <p>L'acquisition du nombre de points diffère selon la période d'activité
+          : Avant le 1er Janvier 2004 : chaque trimestre validé antérieurement à
+          cette date donne droit à 100 points. Depuis le 1er Janvier 2004 : le
+          nombre de points acquis est déterminé en fonction des revenus soumis à
+          cotisations. Ainsi :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>en tranche T1 : les assurés qui payent une cotisation sur la
+              tranche T1 obtiennent 525 points ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> en tranche T2 : les assurés qui payent une cotisation sur la
+              tranche T2 obtiennent 25 points supplémentaires.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p>Pour chacune de ces tranches, le nombre de points attribué est
+          calculé au prorata de la cotisation effective sur la cotisation
+          maximale.</p>
+        <p>Des points supplémentaires peuvent être attribués :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>en cas de rachat de trimestres, dans la limite de 12 trimestres ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> pour un accouchement (100 points supplémentaires accordés pour
+              le trimestre civil pendant lequel a lieu l’accouchement) ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> pour recours à une tierce personne en cas d'invalidité (200
+              points par an). L'assuré reconnu comme étant en incapacité
+              d'exercer, soit pour une durée continue supérieure à 6 mois, soit
+              pour une durée totale de 6 mois au cours de la même année civile,
+              est exonéré de 100 % de la cotisation annuelle et bénéficie de 400
+              points de retraite gratuits, pour une année pleine.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <h4>Âge d'ouverture des droits et durée d'assurance :</h4>
+        <p>L'âge légal de départ en retraite est l'âge à partir duquel l'assuré
+          peut procéder à la liquidation de ses droits à retraite. Il dépend de
+          l'année de naissance de l'assuré et a été réhaussé à 64 ans pour les
+          générations nées à partir de 1968 selon le calendrier suivant :</p>
+        <table>
+          <thead class="raul">
+            <tr>
+              <th>Générations</th>
+              <th>Age légal de départ à la retraite</th>
+              <th>Age de départ à la retraite à taux plein</th>
+              <th>Nombre de trimestres d'assurance requis pour le taux plein</th>
+            </tr>
+          </thead>
+          <tbody class="raul">
+            <tr>
+              <td>1955 à 1957</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>166</td>
+            </tr>
+            <tr>
+              <td>1958 à 1960</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>167</td>
+            </tr>
+            <tr>
+              <td>1er janvier-31 août 1961</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>168</td>
+            </tr>
+            <tr>
+              <td>1er septembre-31 décembre 1961</td>
+              <td>62 ans et 3 mois</td>
+              <td>67 ans</td>
+              <td>169</td>
+            </tr>
+            <tr>
+              <td>1962</td>
+              <td>62 ans et 6 mois</td>
+              <td>67 ans</td>
+              <td>169</td>
+            </tr>
+            <tr>
+              <td>1963</td>
+              <td>62 ans et 9 mois</td>
+              <td>67 ans</td>
+              <td>170</td>
+            </tr>
+            <tr>
+              <td>1964</td>
+              <td>63 ans</td>
+              <td>67 ans</td>
+              <td>171</td>
+            </tr>
+            <tr>
+              <td>1965</td>
+              <td>63 ans et 3 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>1966</td>
+              <td>63 ans et 6 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>1967</td>
+              <td>63 ans et 9 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>A partir de 1968</td>
+              <td>64 ans</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+          </tbody>
+        </table>
+        <h9></h9>
+        <h3><span class="lettre">B - </span>Les situations particulières dans
+          le régime de base</h3>
+        <p>Lorsque l'expert-comptable demande la liquidation de sa retraite de
+          base avant l'âge automatique du taux plein (67 ans) sans totaliser la
+          durée d'assurance requise, un coefficient de minoration - ou décote -
+          de 1,25 % sera appliqué pour chaque trimestre manquant, ceci, dans la
+          limite de 20 trimestres, soit 25 % du montant maximal.</p>
+        <p>Si l'expert-comptable poursuit son activité tandis qu'elle a atteint
+          l'âge légal de départ en retraite et qu'il totalise la durée
+          d'assurance requise pour bénéficier d'une retraite de base à taux
+          plein, il pourra bénéficier d'une surcote au moment de son départ en
+          retraite, c'est-à-dire d'une majoration de 0,75 % par trimestre
+          supplémentaire cotisé.</p>
+        <h9></h9>
+        <h3><span class="lettre">C - </span>Le régime complémentaire :</h3>
+        <p>Dans le régime de retraite complémentaire de la CAVEC,
+          l'expert-comptable peut liquider ses droits :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>À 60 ans avec 25 % de minoration ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> À 61 ans avec 20 % de minoration ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> À 62 ans avec 15 % de minoration ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> À 63 ans avec 10 % de minoration ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> À 65 ans à taux plein.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p>Après 65 ans, la pension bénéficie d'une majoration de 0,75 % par
+          trimestre supplémentaire dans la limite de 15 %.</p>
+        <p>À noter que les assurés déclarés inapte au travail peuvent partir à
+          taux plein dès 60 ans.</p>
+        <p>La pension est versée si l'assuré est à jour de ses cotisations de
+          retraite complémentaire. Si ce n'est pas le cas, sa pension sera
+          versée au premier jour du trimestre civil suivant la régularisation du
+          paiement de ses cotisations.</p>
+        <p>La retraite complémentaire de la CAVEC fonctionne en points acquis
+          via le versement de cotisations.</p>
+        <p>Lors de la liquidation de la pension de retraite complémentaire, le
+          montant s'établit selon la formule suivante :</p>
+        <p class="orandr">Montant de la pension : Valeur du point de retraite <span
+
+            class="mat">×</span> Nombre des points acquis</p>
+        <p class="orandr">Valeur du point : 1,2672 € en 2023</p>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright</p>
+      <img src="../../picto/copyright-white.svg">
+      <p>2023 Factorielles</p>
+      <a><img src="../../logo/mascotte.png"></a> </footer>
+  </body>
+</html>

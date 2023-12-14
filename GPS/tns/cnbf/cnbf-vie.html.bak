@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>GPS - CNBF</title>
+    <meta name="viewport">
+    <meta name="author" content="">
+    <link href="../../css/gilles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62ce91136a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../../logo/favicon01.png">
+  </head>
+  <body>
+    <header> <a href="../../index.html"> <img src="../../logo/Logo-header.png">
+      </a>
+      <div class="navham"> <a href="#" class="bars">
+          <div class="bartop"></div>
+          <div class="beetop"></div>
+          <div class="barmid"></div>
+          <div class="beebot"></div>
+          <div class="barbot"></div>
+        </a>
+        <ul class="navbar">
+          <li> <a href="../../index.html">Accueil</a> </li>
+          <li> <a href="../../salaries/salaries-aff.html">Salariés</a> </li>
+          <li class="turkoi"> <a href="../../tns/lib%C3%A9raux.html">TNS</a> </li>
+          <li> <a href="../../dispositifs/Loi_Pacte_nouveaux_PER.html">Dispositifs
+              communs</a> </li>
+          <li> <a href="../../mots_cles.html">Mots clés</a> </li>
+          <li> <a href="../../impact.html">Impact social du statut</a> </li>
+          <li> <a href="../../contact.html">Contact</a> </li>
+        </ul>
+      </div>
+    </header>
+    <h8>TNS <span>|</span> <a href="../lib%C3%A9raux.html">Libéraux</a> <span>|</span>
+      CNBF</h8> <a class="b2top" href="#top"> <i class="fa-solid fa-up"></i> </a>
+    <div class="navsec"> <a href="cnbf-aff.html">Affiliation</a> <a href="cnbf-cot.html">Cotisations</a>
+      <a href="#" class="navactif">Droits durant la vie</a> <a href="cnbf-mor.html">Droits
+        en cas de décès</a> </div>
+    <div class="bodi">
+      <h1>Les droits durant la vie</h1>
+      <a class="soustitre raul nohyp" href="#1">
+        <p class="georges">1.</p>
+        <p class="gepeto">La prévoyance</p>
+      </a> <a class="soustitre raul nohyp" href="#2">
+        <p class="georges">2.</p>
+        <p class="gepeto">La retraite</p>
+      </a>
+      <div id="prestationAP1"> <h9></h9>
+        <h2><span id="1" class="chiffre">1. </span>La prévoyance</h2>
+        <h3><span class="lettre">A - </span>L'incapacité temporaire : les
+          indemnités journalières</h3>
+        <p>La CNBF prévoit le versement d'une indemnité journalière (IJ) en cas
+          d'arrêt de travail. Pour en bénéficier, il est nécessaire de remplir
+          les conditions suivantes :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Être inscrit au Barreau au moment de la cessation d'activité et
+              justifier d'au moins 12 mois d'affiliation à la CNBF ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Avoir cessé totalement son activité, toutes postulations,
+              plaidoiries, consultations ou réception de clientèle ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Avoir déclaré son avis de travail à son Barreau ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Être à jour du paiement de ses cotisations, y compris les
+              éventuelles majorations ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Avoir formulé une demande de prise en charge auprès de la CNBF ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Justifier d'un arrêt de travail, délivré par le médecin
+              traitant, total et continu et supérieur à 90 jours ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Ne pas être déjà indemnisé par un autre régime obligatoire
+              d'invalidité au titre de la même affection ou de son aggravation;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Ne pas avoir fait liquider ses droits à retraite CNBF.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p>L'IJ est versée après un délai de carence de 90 jours, soit le 91ème
+          jour d'arrêt.</p>
+        <p>Son montant est de 90 €/jour.</p>
+        <p>Pour les 90 premiers jours de l’arrêt de travail, l’avocat peut
+          bénéficier d’une indemnisation de la LPA. LPA prend en charge le
+          versement de l'indemnité journalière pendant les 90 premiers jours de
+          l'arrêt continu et total de travail (ou discontinu en cas de rechute
+          pour une même pathologie), au terme du délai de franchise contractuel,
+          à savoir 15 jours d'arrêt continu quelle que soit la cause (maladie,
+          accident, hospitalisation). </p>
+        <p>Le versement des indemnités journalières cesse lorsque l’assuré est
+          redevenu apte au travail ou lorsqu’il a été indemnisé pendant 3 ans.</p>
+        <p>Dans le cas d’une interruption suivie d’une reprise de travail, un
+          nouveau délai de 3 ans est ouvert, dès lors que la reprise d’activité
+          a été d’au moins un an.</p>
+        <p>Lorsque la reprise de travail dure moins d’un an, le total des
+          périodes successives pendant lesquelles l’allocation est servie, de
+          date à date, ne peut excéder une durée de 3 ans.</p>
+        <h9></h9>
+        <h3><span class="lettre">B - </span>L'incapacité permanente :</h3>
+        <p class="bold">L'invalidité partielle :</p>
+        <p>La CNBF ne verse pas de rente. En revanche, si l'avocat bénéficie des
+          prestations de la LPA, il pourra peut être prétendre à une rente
+          annuelle d’invalidité partielle, après étude de son dossier.</p>
+        <p class="bold">L'invalidité totale :</p>
+        <p>En cas d'invalidité permanente, l'assuré peut adresser une demande de
+          prise en charge au service invalidité de la CNBF, accompagnée des
+          pièces justificatives suivantes :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Un certificat médical précisant l'évolution de l'état de santé et
+              les traitements prescrits ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Un acte de naissance ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> L'attestation du bâtonnier précisant la date d'inscription au
+              Barreau et toute(s) période(s) d'interruption recencée au cours de
+              l'exercice de l'activité.</p>
+          </li>
+        </ul>
+        <p>Au-delà du 1 095ème jour d'arrêt de travail, l'assuré dont l'état
+          d'incapacité permanente est confirmé peut prétendre à une pension
+          d'invalidité jusqu'au dernier jour du trimestre au cours duquel
+          l'intéressé atteint l'âge de la retraite.</p>
+        <h9></h9>
+        <p>Cette pension est attribuée sur décision du conseil d'administration
+          de la CNBF, sur la base des documents suivants :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Un avis de prolongation d'arrêt de travail ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Un certificat médical motivé ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> L'acte de naissance de l'assuré ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> L'attestation du bâtonnier relative à l'exercice ou aux périodes
+              d'exercice.</p>
+          </li>
+        </ul>
+        <p>Le montant de la prestation varie en fonction de la durée d’exercice
+          de l’activité professionnelle.</p>
+        <p>Il est égal :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Soit à 50 % de la retraite de base forfaitaire entière (au taux
+              plein) ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Soit à 50 % de la retraite de base proportionnelle de l'avocat
+              si celui-ci a plus de 20 ans d'ancienneté dans la profession.</p>
+          </li>
+        </ul>
+        <p class="bold">Le besoin d'une tierce personne :</p>
+        <p>Aucune prestation n'est servie au titre d'une tierce personne.</p>
+      </div>
+      <div id="retraite">
+        <h2><span id="2" class="chiffre">2. </span>La retraite</h2>
+        <h9></h9>
+        <h3><span class="lettre">A - </span>Le régime de base</h3>
+        <p>La CNBF gère la retraite de base des avocats, qu'ils soient
+          indépendants ou salariés.</p>
+        <p>Pour en bénéficier, l'avocat doit remplir les conditions suivantes :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Avoir atteint l'âge légal de départ ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Avoir démissionné du barreau (à l'exception du cumul
+              emploi-retraite) ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Être à jour de ses cotisations, majorations comprises, à la date
+              de liquidation des droits.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <h4>Les paramètres de la retraite de base :</h4>
+        <p>Le calcul de la retraite de base fait intervenir 3 paramètres :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Le nombre de trimestres acquis, aussi appelé durée d'assurance ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Le taux de pension (ou taux de liquidation) ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Le montant forfaitaire, fixé par la CNBF ; il est de 18 299 € en
+              2023.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <h4>Calcul de la pension de base :</h4>
+        <p class="orandr">Montant forfaitaire <span class="mat">×</span> Taux
+          de pension <span class="mat">×</span> Durée d'assurance/Durée
+          d'assurance requise.</p>
+        <h9></h9>
+        <h4>Âge légal de départ en retraite et durée d'assurance
+          requise :</h4>
+        <p>Dès qu’il a atteint l’âge légal de départ en retraite, l’avocat peut
+          demander la liquidation de ses droits à la retraite.</p>
+        <p>Les droits seront affectés d’un taux de liquidation variable en
+          fonction :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>de la durée d’assurance qu'il a validée (tous régimes d’assurance
+              vieillesse confondus) ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> ou de s'il a atteint l'âge du taux plein.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p>L’âge légal de départ à la retraite, l'âge du taux plein et la durée
+          d'assurance requise dépendant de l’année de naissance de l'assuré :</p>
+        <table>
+          <thead class="raul">
+            <tr>
+              <th>Générations</th>
+              <th>Age légal de départ à la retraite</th>
+              <th>Age de départ à la retraite à taux plein</th>
+              <th>Nombre de trimestres d'assurance requis pour le taux plein</th>
+            </tr>
+          </thead>
+          <tbody class="raul">
+            <tr>
+              <td>1955 à 1957</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>166</td>
+            </tr>
+            <tr>
+              <td>1958 à 1960</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>167</td>
+            </tr>
+            <tr>
+              <td>1er janvier-31 août 1961</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>168</td>
+            </tr>
+            <tr>
+              <td>1er septembre-31 décembre 1961</td>
+              <td>62 ans et 3 mois</td>
+              <td>67 ans</td>
+              <td>169</td>
+            </tr>
+            <tr>
+              <td>1962</td>
+              <td>62 ans et 6 mois</td>
+              <td>67 ans</td>
+              <td>169</td>
+            </tr>
+            <tr>
+              <td>1963</td>
+              <td>62 ans et 9 mois</td>
+              <td>67 ans</td>
+              <td>170</td>
+            </tr>
+            <tr>
+              <td>1964</td>
+              <td>63 ans</td>
+              <td>67 ans</td>
+              <td>171</td>
+            </tr>
+            <tr>
+              <td>1965</td>
+              <td>63 ans et 3 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>1966</td>
+              <td>63 ans et 6 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>1967</td>
+              <td>63 ans et 9 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>A partir de 1968</td>
+              <td>64 ans</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+          </tbody>
+        </table>
+        <h9></h9>
+        <p>Le taux de liquidation est de 100 % pour une retraite à taux plein.</p>
+        <p>Il peut être réduit jusqu'à 75 % lorsque la liquidation des droits
+          est demandée dès l'âge légal de départ en retraite et si la condition
+          de durée d'assurance requise "tous régimes" n'est pas remplie.</p>
+        <p>Deux cas de figure sont possibles :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle noid"></div>
+            <p> L'avocat a atteint la durée d'assurance requise : </p>
+            <ul class="puces">
+              <li>
+                <div class="cercle"></div>
+                <p>Il a cotisé toute sa carrière à la CNBF : sa retraite de base
+                  sera égale à 18 299 €/an ;</p>
+              </li>
+              <div class="trait"></div>
+              <li>
+                <div class="cercle"></div>
+                <p> Il a cotisé à plusieurs régimes : sa retraite de base CNBF
+                  sera proportionnelle au nombre de trimestres validés dans le
+                  régime des avocats.</p>
+              </li>
+            </ul>
+            <p></p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>L'avocat n'a pas atteint la durée d'assurance requise : la
+              pension de retraite est réduite de 1,25 % par trimestre manquant.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p class="bold">Majoration</p>
+        <p>Dès que le nombre de trimestres validés est supérieur à celui de la
+          durée d'assurance requise permettant l'ouverture du taux plein, la
+          pension de base peut être majorée.</p>
+        <p>Le coefficient de majoration est fixé à :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>0,75 % de la retraite de base pour chaque trimestre
+              supplémentaire cotisé entre le 1er janvier 2004 et le 30 juin 2010
+              ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> 1,25 % à partir du 1er juillet 2010.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <h3><span class="lettre">B - </span>Le régime complémentaire :</h3>
+        <p>Le régime de retraite complémentaire des avocats est également géré
+          par la CNBF.</p>
+        <p>Il s'agit d'un régime en points. Les droits à la retraite
+          complémentaire sont fonction du nombre total de points acquis via le
+          versement de la cotisation de retraite complémentaire.</p>
+        <p>Le montant de la pension se calcule ainsi :</p>
+        <h4>Montant de la pension : Valeur du point de retraite <span class="mat">×</span>
+          Nombre des points acquis</h4>
+        <p class="orandr">Valeur du point : 0,9815 € en 2023.</p>
+        <h9></h9>
+        <h3><span class="lettre">C - </span>Le cumul emploi retraite pour la
+          profession d'avocat</h3>
+        <p>Les règles sur le cumul emploi retraite instituées par la LFSS pour
+          2009 sont applicables à la profession d'avocat, mais contiennent
+          quelques aménagements afin d'être compatibles avec la profession.</p>
+        <p>Ce dispositif concerne deux situations :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>L'avocat en activité souhaite continuer à exercer tout en
+              bénéficiant de sa retraite complémentaire ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> L'avocat retraité reprend une activité.</p>
+          </li>
+        </ul>
+        <p>L'avocat ou ancien avocat doit justifier d'un certain nombre de
+          conditions :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Avoir atteint le taux plein ou l'âge du taux plein ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Apporter à la CNBF la preuve qu'il a déjà fait liquider au
+              préalable tous ses droits à retraite, dans tous les régimes dont
+              il a relevé au cours de sa carrière.</p>
+          </li>
+        </ul>
+        <p>Les cotisations versées dans le cadre d'une reprise d'activité seront
+          non productives de droits supplémentaires.</p>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright</p>
+      <img src="../../picto/copyright-white.svg">
+      <p>2023 Factorielles</p>
+    </footer>
+  </body>
+</html>

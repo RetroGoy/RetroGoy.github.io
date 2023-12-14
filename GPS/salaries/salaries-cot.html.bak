@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>GPS - Salariés</title>
+    <meta name="viewport">
+    <meta name="author" content="">
+    <link href="../css/gilles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62ce91136a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../logo/favicon01.png">
+  </head>
+  <body>
+    <header> <a href="../index.html"> <img src="../logo/Logo-header.png"> </a>
+      <div class="navham"> <a href="#" class="bars">
+          <div class="bartop"></div>
+          <div class="beetop"></div>
+          <div class="barmid"></div>
+          <div class="beebot"></div>
+          <div class="barbot"></div>
+        </a>
+        <ul class="navbar">
+          <li> <a href="../index.html">Accueil</a> </li>
+          <li class="turkoi"> <a href="../salaries/salaries-aff.html">Salariés</a>
+          </li>
+          <li> <a href="../tns/lib%C3%A9raux.html">TNS</a> </li>
+          <li> <a href="../dispositifs/Loi_Pacte_nouveaux_PER.html">Dispositifs
+              communs</a> </li>
+          <li> <a href="../mots_cles.html">Mots clés</a> </li>
+          <li> <a href="../impact.html">Impact social du statut</a> </li>
+          <li> <a href="../contact.html">Contact</a> </li>
+        </ul>
+      </div>
+    </header>
+    <h8>Salarié <span>|</span> Salarié du privé</h8>
+
+<a class="b2top" href="#top">
+  <i class="fa-solid fa-up"></i>
+</a>
+    <div class="navsec"> <a href="salaries-aff.html">Affiliation</a> <a href="#"
+
+        class="navactif">Cotisations</a> <a href="salaries-vie.html">Droits
+        durant la vie</a> <a href="salaries-mor.html">Droits en cas de décès</a>
+    </div>
+    <div class="bodi">
+      <h1>Les cotisations sociales</h1>
+      <p>Prélevées sur le salaire brut, les cotisations sociales sont dues à la
+        fois par l'employeur, le salarié ou les deux. C'est l'employeur qui
+        déclare et verse les cotisations salariales et patronales aux organismes
+        de recouvrement. <br>
+        <br>
+        La cotisation sociale est déterminée selon un taux appliqué à une
+        assiette. <br>
+        <br>
+        Les taux de cotisations sociales sont fixés par décret ; ils sont
+        différents suivant la nature des risques couverts (maladie, retraite,
+        prévoyance, etc.). Ils s’appliquent à toutes les catégories de salariés
+        et à toutes les entreprises.</p>
+      <a class="soustitre raul nohyp" href="#1">
+        <p class="georges">1.</p>
+        <p class="gepeto">La maladie, la maternité et la prévoyance</p>
+      </a> <a class="soustitre raul nohyp" href="#2">
+        <p class="georges">2.</p>
+        <p class="gepeto">La retraite</p>
+      </a> <a class="soustitre raul nohyp" href="#3">
+        <p class="georges">3.</p>
+        <p class="gepeto">Les taxes diverses</p>
+      </a>
+      <div id="cotisationAP"> <h9></h9>
+        <h2><span id="1" class="chiffre">1. </span>La maladie, la maternité et
+          la prévoyance</h2>
+        <table>
+          <thead class="raul">
+            <tr>
+              <th>Cotisations</th>
+              <th>Taux global</th>
+              <th>Employeur</th>
+              <th>Salarié</th>
+              <th>Assiette</th>
+            </tr>
+          </thead>
+          <tbody class="raul">
+            <tr>
+              <td>Maladie-maternité, invalidité, (rémunération &lt; ou = 2,5
+                SMIC)</td>
+              <td>7 %</td>
+              <td>7 %</td>
+              <td>X</td>
+              <td>Totalité du salaire</td>
+            </tr>
+            <tr>
+              <td>Maladie-maternité, invalidité, (rémunération&nbsp;&nbsp; &gt;
+                2,5 SMIC)</td>
+              <td>13 %</td>
+              <td>13 %</td>
+              <td>X</td>
+              <td>Totalité du salaire</td>
+            </tr>
+            <tr>
+              <td>Contribution solidarité autonome (CSA)</td>
+              <td>0,3 %</td>
+              <td>0,30 %</td>
+              <td>X</td>
+              <td>Totalité du salaire</td>
+            </tr>
+            <tr>
+              <td>Décès</td>
+              <td>1,5 %</td>
+              <td>1,5 %</td>
+              <td>X</td>
+              <td>Salaire entre 3 666 € (1 PMSS) et 14 664 € par mois (4 PMSS)</td>
+            </tr>
+            <tr>
+              <td>Allocations familiales<span></span></td>
+              <td>5,25 ou 3,45 %</td>
+              <td>5,25 ou 3,45 %</td>
+              <td>X</td>
+              <td>Totalité du salaire</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="brainsection">
+          <div class="raul">
+            <p> <span class="star">*</span> Pour les employeurs éligibles à la
+              réduction générale, le taux de la cotisation patronale «
+              allocations familiales » est fixé à 3,45 % au titre de leurs
+              salariés dont la rémunération n’excède pas 3,5 fois le montant du
+              SMIC calculé sur un an. Dans les autres cas, le taux de la
+              cotisation allocations familiales reste fixé à 5,25 %.</p>
+          </div>
+        </div>
+      </div>
+      <h2><span id="2" class="chiffre">2. </span>La retraite</h2>
+      <table>
+        <thead class="raul">
+          <tr>
+            <th>Cotisations</th>
+            <th>Taux global</th>
+            <th>Employeur</th>
+            <th>Salarié</th>
+            <th>Assiette</th>
+          </tr>
+        </thead>
+        <tbody class="raul">
+          <tr>
+            <td>Assurance vieillesse</td>
+            <td>15,45 %</td>
+            <td>8,55 %</td>
+            <td>6,90 %</td>
+            <td>Salaire jusqu’à 3 666 € par mois (1 PMSS)</td>
+          </tr>
+          <tr>
+            <td>Assurance vieillesse </td>
+            <td>2,30 %</td>
+            <td>1,90 %</td>
+            <td>0,40 %</td>
+            <td>Totalité du salaire</td>
+          </tr>
+          <tr>
+            <td>Retraite AGIRC/ARRCO T1</td>
+            <td>7,87 %</td>
+            <td>4,72 %</td>
+            <td>3,15 %</td>
+            <td>Jusqu’à 3 666 € par mois (1 PMSS)</td>
+          </tr>
+          <tr>
+            <td>Contribution d'équilibre générale (CEG) T1</td>
+            <td>2,15 %</td>
+            <td>1,29 %</td>
+            <td>0,86 %</td>
+            <td>Jusqu’à 3 666 € par mois (1 PMSS)</td>
+          </tr>
+          <tr>
+            <td>Retraite AGIRC/ARRCO T2</td>
+            <td>21,59 %</td>
+            <td>12,95 %</td>
+            <td>8,64 %</td>
+            <td>Salaire entre 3 666 € et 29 328 € par mois (1 PMSS à 8 PMSS)</td>
+          </tr>
+          <tr>
+            <td>CEG T2</td>
+            <td>2,70 %</td>
+            <td>1,62 %</td>
+            <td>1,08 %</td>
+            <td>Salaire entre 3 666 € et 29 328 € par mois (1 PMSS à 8 PMSS)</td>
+          </tr>
+          <tr>
+            <td>Contribution d'équilibre technique (CET)</td>
+            <td>0,35 %</td>
+            <td>0,21 %</td>
+            <td>0,14 %</td>
+            <td>Totalité du salaire</td>
+          </tr>
+          <tr>
+            <td>APEC</td>
+            <td>0,06%</td>
+            <td>0,036 %</td>
+            <td>0,024 %</td>
+            <td>Jusqu'à 14 664 € (4 PMSS)</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2><span id="3" class="chiffre">3. </span>Les taxes diverses</h2>
+      <table>
+        <thead class="raul">
+          <tr>
+            <th>Cotisations</th>
+            <th>Taux global</th>
+            <th>Employeur</th>
+            <th>Salarié</th>
+            <th>Assiette</th>
+          </tr>
+        </thead>
+        <tbody class="raul">
+          <tr>
+            <td>Contribution sociale généralisée (CSG) </td>
+            <td>9,2 % (6,80 % de CSG déductible et 2,40 % de CSG non-déductible)
+            </td>
+            <td>X</td>
+            <td>9,2 %</td>
+            <td rowspan="2">Gain total après déduction de 1,75 % pour frais
+              professionnels. </td>
+          </tr>
+          <tr>
+            <td>Contribution au remboursement de la dette sociale (CRDS)</td>
+            <td>0,50 %</td>
+            <td>X</td>
+            <td class="borderight">0,50 %</td>
+          </tr>
+          <tr>
+            <td>Chômage</td>
+            <td>4,05 %</td>
+            <td>4,05 %</td>
+            <td>X</td>
+            <td>Jusqu’à 14 664 € par mois (4 PMSS).</td>
+          </tr>
+          <tr>
+            <td>Aide au logement (50 salariés)</td>
+            <td>0,10 %</td>
+            <td>0,10 %</td>
+            <td>X</td>
+            <td>Jusqu’à 3 666 € par mois (1PMSS).</td>
+          </tr>
+          <tr>
+            <td>Aide au logement (50 salariés)</td>
+            <td>0,5 %</td>
+            <td>0,5 %</td>
+            <td>X</td>
+            <td>Totalité du salaire</td>
+          </tr>
+          <tr>
+            <td>Accidents du travail</td>
+            <td colspan="4">Taux variable selon l’entreprise</td>
+          </tr>
+          <tr>
+            <td>AGS</td>
+            <td>0,15 %</td>
+            <td>0,15 %</td>
+            <td>X</td>
+            <td>Jusqu’à 14 664 € par mois (4 PMSS).</td>
+          </tr>
+          <tr>
+            <td>Taxe sur salaire</td>
+            <td>4,25 %</td>
+            <td>4,25 %</td>
+            <td>X</td>
+            <td>Totalité du salaire</td>
+          </tr>
+          <tr>
+            <td>Contribution "effort de construction"<br>
+              Entreprise d’au moins 50 salariés</td>
+            <td>0,45 %</td>
+            <td>0,45 %</td>
+            <td>X</td>
+            <td>Totalité du salaire</td>
+          </tr>
+          <tr>
+            <td>Taxe Apprentissage</td>
+            <td>0,68 %</td>
+            <td>0,68 %<br>
+              (0,44% en Alsace-Moselle) </td>
+            <td>X</td>
+            <td>Masse salariale brute</td>
+          </tr>
+          <tr>
+            <td>Contribution Formation Entreprise<br>
+              (Entreprise de 11 salariés et plus)</td>
+            <td>1 %</td>
+            <td>1 %</td>
+            <td>X</td>
+            <td>Masse salariale brute</td>
+          </tr>
+          <tr>
+            <td>Contribution Formation Entreprise<br>
+              (Entreprise de moins de 11 salariés)</td>
+            <td>0,55 %</td>
+            <td>0,55 %</td>
+            <td>X</td>
+            <td>Masse salariale brute</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer>
+      <p>Copyright</p>
+      <img src="../picto/copyright-white.svg">
+      <p>2023 Factorielles</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>GPS - Salariés</title>
+    <meta name="viewport">
+    <meta name="author" content="">
+    <link href="../css/gilles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62ce91136a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../logo/favicon01.png">
+  </head>
+  <body>
+    <header> <a href="../index.html"> <img src="../logo/Logo-header.png"> </a>
+      <div class="navham"> <a href="#" class="bars">
+          <div class="bartop"></div>
+          <div class="beetop"></div>
+          <div class="barmid"></div>
+          <div class="beebot"></div>
+          <div class="barbot"></div>
+        </a>
+        <ul class="navbar">
+          <li> <a href="../index.html">Accueil</a> </li>
+          <li class="turkoi"> <a href="../salaries/salaries-aff.html">Salariés</a>
+          </li>
+          <li> <a href="../tns/lib%C3%A9raux.html">TNS</a> </li>
+          <li> <a href="../dispositifs/Loi_Pacte_nouveaux_PER.html">Dispositifs
+              communs</a> </li>
+          <li> <a href="../mots_cles.html">Mots clés</a> </li>
+          <li> <a href="../impact.html">Impact social du statut</a> </li>
+          <li> <a href="../contact.html">Contact</a> </li>
+        </ul>
+      </div>
+    </header>
+    <h8>Salarié <span>|</span> Salarié du privé</h8> <a class="b2top" href="#top">
+      <i class="fa-solid fa-up"></i> </a>
+    <div class="navsec"> <a href="salaries-aff.html">Affiliation</a> <a href="salaries-cot.html">Cotisations</a>
+      <a href="#" class="navactif">Droits durant la vie</a> <a href="salaries-mor.html">Droits
+        en cas de décès</a> </div>
+    <div class="bodi">
+      <h1>Les droits durant la vie</h1>
+      <a class="soustitre raul nohyp" href="#1">
+        <p class="georges">1.</p>
+        <p class="gepeto">La prévoyance</p>
+      </a> <a class="soustitre raul nohyp" href="#2">
+        <p class="georges">2.</p>
+        <p class="gepeto">La retraite</p>
+      </a>
+      <div id="prestationAP1"> <h9></h9>
+        <h2><span id="1" class="chiffre">1. </span>La prévoyance</h2>
+        <h4> Ouverture des droits aux indemnités journalières en cas d'arrêt de
+          travail :</h4>
+        <p>En cas d'arrêt de travail pour accident ou maladie (non
+          professionnel(le)), l'Assurance maladie verse, pendant une durée
+          déterminée, des indemnités journalières (IJ), après un délai de
+          carence de 3 jours. Le versement des IJ est soumis à conditions. </p>
+        <p>Arrêt de travail inférieur à 6 mois :</p>
+        <p>Le salarié doit justifier au jour de l'interruption de travail :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Avoir travaillé au moins 150 heures au cours des 3 mois civils ou
+              des 90 jours précédant l'arrêt ; </p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>Ou avoir cotisé, au cours des 6 mois civils précédant l'arrêt,
+              sur la base d'une rémunération au moins égale à 1 015 fois le
+              montant du Smic horaire fixé au début de cette période.</p>
+          </li>
+        </ul>
+        <h7 class="raul">Soit 11,27&nbsp;€ &nbsp;<span class="math">×</span>&nbsp;
+          1 015 &nbsp;<span class="math">=</span>&nbsp; 11 439,05&nbsp;€<br>
+          <br>
+        </h7> <h9></h9>
+        <p>Arrêt de travail supérieur à 6 mois :</p>
+        <p>Pour percevoir une indemnisation au delà de 6 mois, les conditions
+          suivantes doivent être réunies :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>À la date d'interruption de travail, le salarié doit justifier
+              d'une affiliation à la Sécurité sociale depuis au moins 12 mois,
+              et avoir travaillé au moins 600 heures au cours des 12 mois civils
+              ou des 365 jours précédant l'arrêt ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>Ou avoir cotisé, pendant les 12 mois civils ou les 365 jours
+              précédant l'arrêt, sur la base d'une rémunération au moins égale à
+              2 030 fois le montant du Smic horaire fixé au début de cette
+              période.</p>
+          </li>
+        </ul>
+        <h7 class="raul">Soit 11,27&nbsp;€ &nbsp;<span class="math">×</span>&nbsp;
+          2 030 &nbsp;<span class="math">=</span>&nbsp; 28 878,10&nbsp;€<br>
+          <br>
+        </h7><h9></h9>
+        <h4>Ouverture des droits aux indemnités journalières maternité :</h4>
+        <p>Pour prétendre aux indemnités journalières maternité, l'assuré social
+          doit remplir certaines conditions :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Justifier de 10 mois d'immatriculation à la Sécurité sociale à la
+              date prévue de l'accouchement ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>Cesser toute activité professionnelle pendant 8 semaines minimum.</p>
+          </li>
+        </ul>
+        <p>Par ailleurs, la salariée doit également :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Avoir travaillé au moins 150 heures au cours des 3 mois civils ou
+              des 90 jours précédant l'arrêt ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p>Avoir cotisé, au cours des 6 mois civils précédant l'arrêt, sur
+              la base d'une rémunération au moins égale à 1 015 fois le montant
+              du Smic horaire fixé au début de cette période.</p>
+          </li>
+        </ul>
+        <h7 class="raul">Soit 11,27€ &nbsp;<span class="math">×</span>&nbsp; 1
+          015 &nbsp;<span class="math">=</span> 11 439,05&nbsp;€<br>
+          <br>
+        </h7><h9></h9>
+        <h4>Montant de la prestation IJ maladie</h4>
+        <p>Le montant de l'indemnité journalière maladie correspond à 50&nbsp;%
+          du salaire journalier de base du salarié.</p>
+        <p>Pour un salarié, payé mensuellement, le salaire journalier de base
+          est calculé ainsi :</p>
+        <p>Salaire journalier de base = sommes des 3 derniers salaires perçus
+          avant l'arrêt / 91,25</p>
+        <p>L'IJ sera égale à 50&nbsp;% de ce salaire journalier de base et
+          plafonnée à 50,58&nbsp;€/jour en 2023.</p>
+        <p>Pour rappel, un délai de carence de 3 jours s'applique au début de
+          l'arrêt.</p>
+        <p>Depuis le 1er juillet 2020, les salariés ayant au minimum 3 enfants à
+          charge ne peuvent plus bénéficier de la majoration qui portait le
+          montant de l'IJ à 66,66&nbsp;% du salaire journalier de base, à partir
+          du 31ème jour d'arrêt.</p>
+        <h3><span class="lettre">A - </span>L'incapacité permanente</h3>
+        <p>Lorsqu'il a été reconnu invalide par le médecin conseil de la
+          Sécurité sociale, le salarié peut percevoir une pension d'invalidité.
+          Plusieurs conditions sont nécessaires pour bénéficier de cette
+          prestation :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Ne pas avoir atteint l'âge légal de départ à la retraite ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Avoir une capacité de travail ou de gain réduite d'au moins 2/3
+              ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Justifier de 12 mois d'immatriculation en tant qu'assuré social
+              auprès de l'Assurance maladie ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Avoir travaillé au moins 600 heures au cours des 12 mois
+              précédant l'interruption de travail ou la constatation de<br>
+              l'état d'invalidité ou avoir cotisé sur un salaire au moins égal à
+              2 030 fois le montant du SMIC horaire (soit, 22 878,10&nbsp;€ en
+              2023).</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p>Le montant de la pension dépend de la catégorie d'invalidité du
+          salarié ainsi que du salaire moyen des 10 meilleures années d'activité
+          du salarié.</p>
+        <p>Il existe 3 catégories de pensions d'invalidité :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Invalidité de 1ère catégorie également appelée invalidité
+              partielle ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Invalidité de 2ème catégorie également appelée invalidité totale
+              ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Invalidité de 3ème catégorie : elle correspond à une invalidité
+              totale à laquelle s'ajoute une majoration pour tierce personne.</p>
+          </li>
+        </ul>
+        <h3><span class="lettre">B - </span>L'invalidité partielle</h3>
+        <p>L'invalidité partielle correspond à l'invalidité de 1ère catégorie.</p>
+        <p>Son montant est égal à 30&nbsp;% du salaire annuel moyen de base des
+          10 meilleurs années.</p>
+        <p>Le montant de la pension d'invalidité de 1ère catégorie est encadré
+          ainsi :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Montant minimum : 311,56&nbsp;€/mois en 2023 ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Montant maximum : 1 099,80&nbsp;€/mois en 2023.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <h3><span class="lettre">C - </span>L'invalidité totale</h3>
+        <p>L'invalidité totale correspond à une invalidité de 2ème catégorie.</p>
+        <p>Son montant est égal à 50&nbsp;% du salaire annuel moyen de base des
+          10 meilleurs années.</p>
+        <p>Le montant de la pension d'invalidité de 2ème catégorie est encadré
+          ainsi :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Montant minimum : 311,56&nbsp;€/mois en 2023 ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Montant maximum : 1 833&nbsp;€/mois en 2023.</p>
+          </li>
+        </ul>
+        <h3><span class="lettre">D - </span>Le besoin d'une tierce personne</h3>
+        <p>Lorsque l'assuré est en invalidité de 2ème catégorie et que son état
+          nécessite l'intervention d'une tierce personne pour effectuer les
+          actes de la vie courantes, on parle d'invalidité de 3ème catégorie.</p>
+        <p>Son montant est égal à 50&nbsp;% du salaire annuel moyen de base des
+          10 meilleurs années, auquel s'ajoute une majoration pour tierce
+          personne égale à 1 210,90 €/mois en 2023.</p>
+        <p>Le montant de la pension d'invalidité de 3ème catégorie est encadré
+          ainsi :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Montant minimum : 1 504,11&nbsp;€/mois (311,56 + 1 192,55);</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Montant maximum : 3 025,55&nbsp;€/mois 1 833 + 1 192,55).</p>
+          </li>
+        </ul>
+      </div>
+      <div id="retraite">
+        <h2><span id="2" class="chiffre">2 – </span>La retraite</h2>
+        <h9></h9>
+        <h3><span class="lettre">A - </span>Le régime de base</h3>
+        <p>La retraite de base du régime général est gérée par la caisse
+          nationale d'assurance vieillesse des travailleurs salariés (CNAVTS).</p>
+        <p>Pour le salarié, la détermination des droits à la retraite de base
+          intervient au niveau de la Caisse d'assurance retraite et de la santé
+          au travail (CARSAT) correspondant à son lieu de résidence.</p>
+        <p>Les CARSAT constituent les relais régionaux de la CNAVTS pour le
+          calcul des droits et la liquidation des pensions des salariés.</p>
+        <h4>Les paramètres de la retraite de base :</h4>
+        <p>Le calcul de la retraite de base fait intervenir 3 paramètres :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Le salaire annuel moyen (SAM) équivalent à la moyenne des
+              salaires des 25 meilleures années ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Le nombre de trimestres acquis, aussi appelé durée d'assurance ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Le taux de pension (ou taux de liquidation).</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p>En fonction de son année de naissance, un assuré social se voit
+          attribuer une durée d'assurance requise, c'est-à-dire un nombre de
+          trimestres minimum à obtenir, afin de bénéficier d'un taux plein. La
+          durée d'assurance requise varie entre 150 et 172 trimestres selon
+          l'année de naissance de l'assuré. Dans le régime général, le taux
+          plein est fixé à 50&nbsp;%.</p>
+        <h4>Décote et surcote :</h4>
+        <p>Lorsque le salarié part en retraite sans avoir atteint la durée
+          d'assurance requise et qu'il n'a pas atteint l'âge de départ à taux
+          plein automatique (également fixé par son année de naissance), son
+          taux de pension est diminué. Autrement dit, sa pension subit une
+          décote.</p>
+        <p>À l'inverse, si l'assuré acquiert plus de trimestres que ce que sa
+          durée d'assurance requise prévoit, sa pension de retraite de base est
+          majorée. Depuis janvier 2019, chaque trimestre supplémentaire à la
+          durée d'assurance requise donne droit à une majoration de pension de
+          1,25&nbsp;%.</p>
+        <h4>Calcul d'une pension de retraite de base pour un salarié :</h4>
+        <p>La formule de calcul est la suivante :</p>
+        <p class="orandr">SAM &nbsp;<span class="mat">×</span>&nbsp; Taux de
+          pension &nbsp;<span class="mat">×</span>&nbsp; Durée d'assurance
+          &nbsp;<span class="mat">/</span>&nbsp; Durée d'assurance requise</p>
+        <h9></h9>
+        <h4>Âge d'ouverture des droits et durée d'assurance :</h4>
+        <p>L'âge légal de départ en retraite est l'âge à partir duquel l'assuré
+          peut procéder à la liquidation de ses droits à retraite. Il dépend de
+          l'année de naissance de l'assuré et a été réhaussé à 64 ans pour les
+          générations nées à partir de 1968 selon le calendrier suivant :</p>
+        <table>
+          <thead class="raul">
+            <tr>
+              <th>Générations</th>
+              <th>Age légal de départ à la retraite</th>
+              <th>Age de départ à la retraite à taux plein</th>
+              <th>Nombre de trimestres d'assurance requis pour le taux plein</th>
+            </tr>
+          </thead>
+          <tbody class="raul">
+            <tr>
+              <td>1955 à 1957</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>166</td>
+            </tr>
+            <tr>
+              <td>1958 à 1960</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>167</td>
+            </tr>
+            <tr>
+              <td>1er janvier-31 août 1961</td>
+              <td>62 ans</td>
+              <td>67 ans</td>
+              <td>168</td>
+            </tr>
+            <tr>
+              <td>1er septembre-31 décembre 1961</td>
+              <td>62 ans et 3 mois</td>
+              <td>67 ans</td>
+              <td>169</td>
+            </tr>
+            <tr>
+              <td>1962</td>
+              <td>62 ans et 6 mois</td>
+              <td>67 ans</td>
+              <td>169</td>
+            </tr>
+            <tr>
+              <td>1963</td>
+              <td>62 ans et 9 mois</td>
+              <td>67 ans</td>
+              <td>170</td>
+            </tr>
+            <tr>
+              <td>1964</td>
+              <td>63 ans</td>
+              <td>67 ans</td>
+              <td>171</td>
+            </tr>
+            <tr>
+              <td>1965</td>
+              <td>63 ans et 3 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>1966</td>
+              <td>63 ans et 6 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>1967</td>
+              <td>63 ans et 9 mois</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <td>A partir de 1968</td>
+              <td>64 ans</td>
+              <td>67 ans</td>
+              <td>172</td>
+            </tr>
+          </tbody>
+        </table>
+        <h9></h9>
+        <h4>Majorations familiales de la pension de base :</h4>
+        <p>Dans le régime général, différents types de majorations peuvent
+          s'appliquer aux pensions de retraite de base.</p>
+        <h4>Majorations de durée d'assurance pour enfant :</h4>
+        <p>L'assuré peut acquérir des trimestres supplémentaires de majoration
+          pour chaque enfant :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>4 trimestres au titre de la maternité ou de l'adoption ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> 4 trimestres au titre de l'éducation (hors congé parental
+              d'éducation).</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p>Si les trimestres supplémentaires au titre de la maternité sont
+          toujours attribués à la mère biologique de l'enfant, les trimestres
+          supplémentaires au titre de l'adoption et de l'éducation peuvent être
+          attribués à l'un ou l'autre des parents. Ceux-ci sont accordés en
+          raison de l'éducation dispensée pendant les 4 années suivants la
+          naissance ou l'adoption :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Les parents peuvent désigner, d'un commun accord, le bénéficiaire
+              de cette majoration, ou la répartir entre eux, dans un délai de 6
+              mois à compter des 4 ans de l'enfant ou de l'adoption ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> En cas de désaccord, la majoration est attribuée au parent qui
+              prouve avoir assumé à titre principal l'éducation de l'enfant
+              pendant la période la plus longue. À défaut de preuve, elle est
+              partagée par moitié ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Si aucun choix n'est exprimé dans le délai imparti, la
+              majoration est accordée en totalité à la mère.</p>
+          </li>
+        </ul>
+        <h9></h9>
+        <p>Toutefois une distinction existe entre les enfants nés ou adoptés
+          avant le 1er janvier 2010 et ceux nés ou adoptés après le 1er janvier
+          2020 :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Si l'enfant est né avant le 1er janvier 2010 : les majorations
+              "naissance" et "éducation" sont attribuées par défaut à la mère,
+              soit 8 trimestres. Si le père souhaite en bénéficier, il doit
+              apporter la preuve qu'il a élevé seul son enfant pendant une ou
+              plusieurs années au cours des 4 ans qui ont suivi la naissance ou
+              l'adoption ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Si l'enfant est né après le 1er janvier 2010, il y a application
+              du nouveau dispositif.</p>
+          </li>
+        </ul>
+        <h4>Congé parental d'éducation :</h4>
+        <p>Le parent qui a pris un congé parental d'éducation peut bénéficier
+          d'une majoration du nombre de ses trimestres. Cette majoration, égale
+          à la durée effective du congé, ne peut se cumuler avec les trimestres
+          supplémentaires accordés au titre de la maternité et de l'éducation.</p>
+        <h9></h9>
+        <h4>Troisième enfant :</h4>
+        <p>À partir du 3ème enfant, une majoration de 10&nbsp;% s'applique
+          automatiquement à la pension de retraite de base.</p>
+        <h3><span class="lettre">B - </span>Les situations particulières dans
+          le régime de base</h3>
+        <p>Lorsque l'assuré demande la liquidation de sa retraite de base avant
+          l'âge automatique du taux plein (67 ans) sans totaliser la durée
+          d'assurance requise, un coefficient de minoration - ou décote - de
+          1,25 % sera appliqué pour chaque trimestre manquant, ceci, dans la
+          limite de 20 trimestres, soit 25 % du montant maximal.</p>
+        <p>Si l'assuré poursuit son activité tandis qu'il a atteint l'âge légal
+          de départ à la retraite et qu'il totalise la durée d'assurance requise
+          pour bénéficier d'une retraite de base à taux plein, il pourra
+          bénéficier d'une surcote au moment de son départ en retraite,
+          c'est-à-dire d'une majoration de 0,75 % par trimestre supplémentaire
+          cotisé.</p>
+        <h9></h9>
+        <h3><span class="lettre">C - </span>Le régime complémentaire</h3>
+        <p>Les salariés du privé cotisent à titre obligatoire auprès de la
+          caisse de retraite complémentaire AGIRC-ARRCO. Ce régime est issu de
+          la fusion, au 1er janvier 2019, entre l'Association pour le régime de
+          retraite complémentaire des salariés (ARRCO) et l'Association générale
+          des institutions de retraites des cadres (AGIRC), intervenue à la
+          suite des accords interprofessionnels du 30 octobre 2015 et du 17
+          novembre 2017.</p>
+        <p>Pour bénéficier de sa retraite complémentaire, un salarié doit réunir
+          les conditions suivantes :</p>
+        <ul class="puces">
+          <li>
+            <div class="cercle"></div>
+            <p>Avoir cessé toute activité professionnelle ;</p>
+          </li>
+          <div class="trait"></div>
+          <li>
+            <div class="cercle"></div>
+            <p> Remplir certaines conditions d'âge et de carrière.</p>
+          </li>
+        </ul>
+        <p>Ce régime fonctionne selon un système à points, acquis tout au long
+          de la carrière professionnelle du salarié sur la base des cotisations
+          prélevées par son ou ses employeurs.</p>
+        <h9></h9>
+        <h4>Calcul de la pension de retraite complémentaire :</h4>
+        <p>La pension de retraite complémentaire du salarié correspond au nombre
+          de points acquis dans le régime AGIRC-ARRCO multiplié par la valeur du
+          point l'année de son départ en retraite. Au 1er novembre 2023, la
+          valeur du point AGIRC-ARRCO est de 1,3498&nbsp;€.</p>
+        <h4>Bonus-malus de la pension :</h4>
+        <p>Afin d'encourager la poursuite de l'activité professionnelle, un
+          coefficient de solidarité a été instauré pour les personnes nées à
+          compter du 1er janvier 1957 qui demandent la liquidation de leur
+          retraite complémentaire à partir du 1er janvier 2019.</p>
+        <p>Ainsi, si le salarié demande sa retraite complémentaire à la date à
+          laquelle il bénéficie du taux plein dans le régime de base, il subira
+          une minoration de 10&nbsp;% pendant 3 ans du montant de sa pension
+          complémentaire.</p>
+        <p>S'il reporte son départ d'un an : le coefficient de solidarité ne
+          s'applique pas ;<br>
+          S'il reporte son départ de 2 ans : sa pension bénéficie d'une
+          majoration de 10&nbsp;% pendant 1 an ;<br>
+          S'il reporte son départ de 3 ans : sa pension bénéficie d'une
+          majoration de 20&nbsp;% pendant 1 an ;<br>
+          S'il reporte son départ de 4 ans : sa pension bénéficie d'une
+          majoration de 30&nbsp;% pendant 1 an.</p>
+        <h9></h9>
+        <h4>Âge de départ :</h4>
+        <p>Si les conditions ne sont pas remplies pour un départ à taux plein,
+          la retraite complémentaire subira des coefficients d’anticipation qui
+          sont déterminés en fonction de l’âge de l’assuré à la date de la
+          demande de liquidation de la prestation.</p>
+        <h4>Majorations pour les enfants :</h4>
+        <p>Il existe deux majorations : une majoration pour enfants "nés ou
+          élevés" et une majoration pour enfants à charge. Elles ne sont pas
+          cumulables, c'est la majoration la plus favorable qui s'applique.</p>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright</p>
+      <img src="../picto/copyright-white.svg">
+      <p>2023 Factorielles</p>
+    </footer>
+  </body>
+</html>

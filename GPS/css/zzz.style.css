@@ -1,0 +1,376 @@
+
+
+    /* Formalitées et Polices */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+    font-family: 'futura_ptbook';
+    src: url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff2') format('woff2'), 
+         url('../Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptdemi';
+    src: url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff2') format('woff2'), 
+         url('../Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptbold';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptlight';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptmedium';
+    src: url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff2') format('woff2'), 
+        url('../Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'futura_ptdemi';
+    font-size: 56px;
+    color: #303A45;
+}
+
+h2 {
+    font-family: 'futura_ptbook';
+    font-size: 48px;
+    color: #11B1A9;
+}
+
+h3 {
+    font-family: 'futura_ptmedium';
+    font-size: 40px;
+    color: #303A45;
+}
+
+h4 {
+    font-family: 'futura_ptmedium';
+    font-size: 32px;
+    color: #62788E;
+    text-decoration: underline;
+}
+
+h5 {
+    font-family: 'futura_ptbook';
+    font-size: 28px;
+    color: #303A45;
+    text-decoration: underline;
+}
+
+h6 {
+    font-family: 'futura_ptbook';
+    font-size: 2vw;
+    color: #303A45;
+    text-align: center;
+    font-weight: 50;
+    margin: 22px;
+}
+
+.MAJ p {
+    font-family: 'futura_ptbook';
+    font-size: 12px;
+    color: #FB957D;
+    text-align: center;
+    font-weight: 50;
+    margin: 10%;
+}
+
+/* FIN POLICES */
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#corpsmenu {
+    background-image: url("../img/fond.svg");
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 135vh;
+}
+
+#corpscontact {
+    background-color: #E7EBEF;
+}
+
+/* FIN FORMALITEES*/
+
+
+
+    /* TETE DE PAGE ACCUEIL*/
+
+    header {
+    }
+
+    .logo img {
+        margin-left: 53%;
+        width: 32%;
+        padding: 4%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 0 0 5px 5px;
+    }
+
+    /* ICONES ACCUEIL */
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat( 4, 2fr);
+        grid-column-gap: 7%;
+        grid-row-gap: 10%;
+        margin: 88px 7% 100px 7%;
+    }
+
+    .square {
+        background-color: #FFFFFF;
+        box-shadow: 3px 5px 14px #00000029;
+        border-radius: 10px;
+        opacity: 1;
+        position: relative;
+        width: 100%;
+    }
+
+        .square:after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+
+    .content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+        .square img {
+            display: block;
+            margin: auto;
+            padding-top: 30%;
+        }
+
+        .content i {
+            font-size: 4.5em;
+            display: block;
+            margin: auto;
+            padding-top: 25%;
+            text-align: center; 
+        }
+
+        .un:hover {
+            background-color: #9B9BC8;
+        }
+
+                .un:hover .fa-briefcase {
+                        color: #FFF;
+                    }
+
+                .un:hover h6 {
+                    color: #FFF;
+                }
+
+            .fa-briefcase {
+                color: #9B9BC8;
+            }
+
+
+        .deux:hover {   
+            background-color: #11B1A9;
+        }
+
+                .deux:hover .fa-user-doctor {
+                color: #FFF;
+                }
+
+                .deux:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-user-doctor {
+                color: #11B1A9;
+            }
+
+
+        .trois:hover {   
+            background-color: #FB957D;
+        }
+
+                .trois:hover .fa-object-subtract {
+                color: #FFF;
+                }
+
+                .trois:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-object-subtract {
+                color: #FB957D;
+            }
+
+
+        .quatre .content i {
+            padding-top: 0;
+        } 
+
+        .quatre:hover {   
+            background-color: #303A45;
+        }
+
+                .quatre:hover .fa-magnifying-glass {
+                color: #FFF;
+                }
+
+                .quatre:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-magnifying-glass {
+                color: #303A45;
+            }
+
+
+        .cinq:hover {   
+            background-color: #FB957D;
+        }
+
+                .cinq:hover .fa-gavel {
+                color: #FFF;
+                }
+
+                .cinq:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-gavel {
+                color: #FB957D;
+            }
+
+        .six .content i {
+            padding-top: 0;
+        } 
+
+        .six:hover {   
+            background-color: #303A45;
+        }
+
+                .six:hover .fa-chalkboard-user {
+                color: #FFF;
+                }
+
+                .six:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-chalkboard-user {
+                color: #303A45;
+            }
+
+
+        .sept:hover {   
+            background-color: #9B9BC8;
+        }
+
+                .sept:hover .fa-key {
+                color: #FFF;
+                }
+
+                .sept:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-key {
+                color: #9B9BC8;
+            }
+
+
+        .huit:hover {   
+            background-color: #11B1A9;
+        }
+
+                .huit:hover .fa-phone {
+                color: #FFF;
+                }
+
+                .huit:hover h6 {
+                color: #FFF;
+                }
+
+            .fa-phone {
+                color: #11B1A9;
+            }
+
+    a {
+        text-decoration: none;
+    }
+
+/* MODE INTERMEDIAIRE */
+@media all and (max-width: 1400px) {
+
+
+    .wrapper {
+        display: grid;
+    }
+
+    h6 {
+    }
+
+    .content i {
+        font-size: 3em;
+    }
+}
+
+/* MODE SMARTPHONE */
+@media all and (max-width: 992px) {
+
+    .logo img {
+        margin-left: 20%;
+        width: 50%;
+        padding: 5%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat( 2, 4fr);
+        grid-column-gap: 20%;
+        grid-row-gap: 10%;
+    }
+
+    h6 {
+        font-family: 'futura_ptbook';
+        font-size: 4vw;
+        color: #303A45;
+        text-align: center;
+        font-weight: 50;
+        margin: 22px;
+    }
+
+            .content i {
+                font-size: 5em;
+            display: block;
+            margin: auto;
+            padding-top: 25%;
+            text-align: center; 
+        }
+}
