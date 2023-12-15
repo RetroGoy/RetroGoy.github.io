@@ -22,19 +22,13 @@ body, html {
     display:flex;
 }
 
-.flex
-
-header {
-    padding: 2em 0;
-}
-
 #parcours, #projets, #veille-technologique {
     margin: 2em 5%;
     padding: 2em;
     background-color: #f9f9f9;
 }
 
-.projet iframe {
+.projet iframe{
     width: 100%;
     height: 300px;
     border: none;
@@ -341,4 +335,25 @@ footer p {
 
 footer img {
   height: 20px;
+}
+
+header {
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+    padding: 2em 0;
+}
+
+a {
+  margin: 50px 0;
+  font-family: 'futura_ptmedium';
+  font-size: 25px;
+  color: #62788E;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.gilles, #projets {
+  margin : 0;
 }
