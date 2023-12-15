@@ -357,3 +357,7 @@ a {
 .gilles, #projets {
   margin : 0;
 }
+
+#CV img {
+  width: 100%;
+}
