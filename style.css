@@ -8,6 +8,13 @@
     font-style: normal;
 }
 
+.red-hat text-<uniquifier> {
+  font-family: "Red Hat Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -117,7 +124,8 @@ a {
 h1 {
   margin-left: 15px;
   padding: 30px 0 25px 0;
-  font-family: 'futura_ptdemi';
+  font-family: "Red Hat Text", sans-serif;
+
   font-size: 56px;
   color: #303A45;
   word-wrap: break-word;
@@ -127,7 +135,8 @@ h1 {
 
 h2 {
   margin: 80px 0 40px 0;
-  font-family: 'futura_ptbook';
+  font-family: "Red Hat Text", sans-serif;
+
   font-size: 45px;
   color: #11B1A9;
   word-wrap: break-word;
@@ -137,7 +146,8 @@ h2 {
 
 h3 {
   margin: 67px 7% 0 7%;
-  font-family: 'futura_ptmedium';
+  font-family: "Red Hat Text", sans-serif;
+
   font-size: 37px;
   color: #303A45;
   word-wrap: break-word;
@@ -169,7 +179,7 @@ h5 {
 
 p {
   margin: 20px 0;
-  font-family: 'futura_ptbook';
+  font-family: "Red Hat Text", sans-serif;
   font-size: 20px;
   word-wrap: break-word;
   -webkit-hyphens: auto;
