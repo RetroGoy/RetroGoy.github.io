@@ -20,7 +20,13 @@ body, html {
     padding: 0;
 }
 
+.dalle {
+  float: right;
+  margin: 0 0 10px 10px; /* haut, droite, bas, gauche */
+}
+
 header > div {
+  font-family: "Red Hat Text", sans-serif;
   padding: 7px;
   border-radius: 7px;
   background-color: #fff;
