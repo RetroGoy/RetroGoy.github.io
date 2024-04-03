@@ -20,6 +20,12 @@ body, html {
     padding: 0;
 }
 
+header > div {
+  padding: 7px;
+  border-radius: 7px;
+  background-color: #fff;
+}
+
 .tab {
   width: 49%;
   height: 40px;
