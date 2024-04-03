@@ -20,6 +20,14 @@ body, html {
     padding: 0;
 }
 
+.tab {
+  width: 49%;
+  height: 40px;
+  font-family: "Red Hat Text", sans-serif;
+  background-color: #11B1A9;
+  font-size: large;
+}
+
 .container {
     margin: 0;
     padding: 0;
