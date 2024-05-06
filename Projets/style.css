@@ -93,3 +93,22 @@ img{
 .rez {
     background-color: #666;
 }
+
+.tablature {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #666;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.tab-string {
+    margin: 5px 0;
+    white-space: pre; /* Pour assurer que les espaces et tirets sont conservés */
+}
+

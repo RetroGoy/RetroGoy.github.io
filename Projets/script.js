@@ -145,3 +145,41 @@ document.addEventListener('keyup', function(event) {
         });
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const strings = document.querySelectorAll('.bass .string');
+    const tabStrings = {
+        'E': document.getElementById('tab-E'),
+        'A': document.getElementById('tab-A'),
+        'D': document.getElementById('tab-D'),
+        'G': document.getElementById('tab-G')
+    };
+
+    strings.forEach(string => {
+        string.addEventListener('click', function() {
+            const stringName = this.parentNode.classList[1]; // Classe spécifiant la corde (ex. 'str E')
+            const fretIndex = Array.from(this.parentNode.children).indexOf(this); // Obtient l'index de la frette
+            updateTablature(stringName, fretIndex);
+        });
+    });
+
+    function updateTablature(stringName, fretIndex) {
+        const tabString = tabStrings[stringName];
+        tabString.textContent += fretIndex + "-";
+        alignTablature(); // Appel de la fonction pour aligner la tablature si nécessaire
+    }
+
+    function alignTablature() {
+        let maxLength = 0;
+        // Trouver la longueur maximale des lignes de tablature
+        Object.values(tabStrings).forEach(ts => {
+            maxLength = Math.max(maxLength, ts.textContent.length);
+        });
+        // Ajuster toutes les lignes pour qu'elles aient la même longueur
+        Object.values(tabStrings).forEach(ts => {
+            while (ts.textContent.length < maxLength) {
+                ts.textContent += "-";
+            }
+        });
+    }
+});
