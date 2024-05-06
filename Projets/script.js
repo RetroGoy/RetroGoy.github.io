@@ -52,3 +52,42 @@ document.addEventListener('DOMContentLoaded', () => {
         return notes[quinteIndex] + note.substring(note.length - 1);
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const pianoKeys = document.querySelectorAll('.piano .key');
+    const bassStrings = document.querySelectorAll('.bass .string');
+
+    function activateNote(element) {
+        element.style.backgroundColor = 'yellow';
+        setTimeout(() => {
+            if (element.classList.contains('key')) {
+                element.style.backgroundColor = element.classList.contains('Cs') || element.classList.contains('Ds') || element.classList.contains('Fs') || element.classList.contains('Gs') || element.classList.contains('As') ? 'black' : 'white';
+            } else {
+                element.style.backgroundColor = 'white'; 
+            }
+        }, 500);
+    }
+
+    pianoKeys.forEach(key => {
+        key.addEventListener('click', () => {
+            const note = key.getAttribute('data-note');
+            bassStrings.forEach(string => {
+                if (string.getAttribute('data-note') === note) {
+                    activateNote(string);
+                }
+            });
+            activateNote(key);
+        });
+    });
+    bassStrings.forEach(string => {
+        string.addEventListener('click', () => {
+            const note = string.getAttribute('data-note');
+            pianoKeys.forEach(key => {
+                if (key.getAttribute('data-note').includes(note)) {
+                    activateNote(key);
+                }
+            });
+            activateNote(string);
+        });
+    });
+});
