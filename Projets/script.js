@@ -91,3 +91,57 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+document.addEventListener('keydown', function(event) {
+    const keyMap = {
+        'KeyA': 'C1',
+        'KeyW': 'C#1',
+        'KeyS': 'D1',
+        'KeyE': 'D#1',
+        'KeyD': 'E1',
+        'KeyF': 'F1',
+        'KeyT': 'F#1',
+        'KeyG': 'G1',
+        'KeyY': 'G#1',
+        'KeyH': 'A1',
+        'KeyU': 'A#1',
+        'KeyJ': 'B1'
+    };
+    if (keyMap[event.code]) {
+        const note = keyMap[event.code];
+        const keys = document.querySelectorAll('.key');
+        keys.forEach(key => {
+            if (key.dataset.note === note) {
+                activateNote(key);
+            }
+        });
+    }
+});
+
+// Ajouter également un écouteur pour 'keyup' pour désactiver la note
+document.addEventListener('keyup', function(event) {
+    const keyMap = {
+        'KeyA': 'C1',
+        'KeyW': 'C#1',
+        'KeyS': 'D1',
+        'KeyE': 'D#1',
+        'KeyD': 'E1',
+        'KeyF': 'F1',
+        'KeyT': 'F#1',
+        'KeyG': 'G1',
+        'KeyY': 'G#1',
+        'KeyH': 'A1',
+        'KeyU': 'A#1',
+        'KeyJ': 'B1'
+    };
+    if (keyMap[event.code]) {
+        const note = keyMap[event.code];
+        const keys = document.querySelectorAll('.key');
+        keys.forEach(key => {
+            if (key.dataset.note === note) {
+                // Retour à la couleur originale
+                key.style.backgroundColor = key.classList.contains('Cs') || key.classList.contains('Ds') || key.classList.contains('Fs') || key.classList.contains('Gs') || key.classList.contains('As') ? 'black' : 'white';
+            }
+        });
+    }
+});
