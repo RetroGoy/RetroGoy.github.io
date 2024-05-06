@@ -1,0 +1,81 @@
+/* Styles */
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("eol.JPEG");
+}
+
+.piano, .bass {
+    margin: 20px;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/*PIANO*/
+.piano {
+    display: flex;
+}
+
+.oct {
+    display: flex;
+}
+
+.key {
+    width: 40px;
+    height: 120px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #666;
+    cursor: pointer;
+    position: relative;
+}
+
+.key:hover {
+    background-color: yellow;
+}
+
+.key.Cs, .key.Ds, .key.Fs, .key.Gs, .key.As {
+    background-color: black;
+    color: white;
+    margin:0 0 0 -1.4em;
+    z-index:2;
+    height: 80px;
+}
+
+/*BASS*/
+.bass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.str {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.string {
+    width: 60px;
+    height: 50px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border: 1px solid #666;
+    cursor: pointer;
+}
+
+.string:hover {
+    background-color: yellow;
+}
+
+.count .string {
+    
+}
