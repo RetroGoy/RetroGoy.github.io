@@ -11,6 +11,14 @@ body {
     background-color: #fff;
 }
 
+.top {
+    display: flex;
+}
+img{
+    margin: 4%;
+    width: 70%;
+}
+
 /*PIANO*/
 .piano {
     display: flex;
