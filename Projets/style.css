@@ -1,12 +1,16 @@
 /* Styles */
+html, body {margin: 0; height: 100%; overflow: hidden}
 body {
     min-height: 98vh;
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("eol.JPEG");
     background-size: cover;
     background-position: center;
 }
+.papa {
+    margin: 20px;
+}
 
-.piano, .bass {
+.piano, .bass, .tablature {
     margin: 2%;
     padding: 2%;
     border: 2px solid #333;
