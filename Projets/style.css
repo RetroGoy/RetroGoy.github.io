@@ -1,0 +1,118 @@
+/* Styles */
+/*html, body {margin: 0; height: 100%; overflow: hidden}*/
+body {
+    min-height: 98vh;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("eol.JPEG");
+    background-size: cover;
+    background-position: center;
+}
+.papa {
+    margin: 20px;
+}
+
+.piano, .bass, .tablature {
+    margin: 2%;
+    padding: 2%;
+    border: 2px solid #333;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    margin: 2%;
+    margin-top: 7vh;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/*PIANO*/
+.piano {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.oct {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.key {
+    width: 40px;
+    height: 120px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #666;
+    cursor: pointer;
+    position: relative;
+}
+
+.key.Cs, .key.Ds, .key.Fs, .key.Gs, .key.As {
+    background-color: black;
+    color: white;
+    margin:0 0 0 -1.4em;
+    z-index:2;
+    height: 80px;
+}
+
+/*BASS*/
+.bass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.str {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.string {
+    width: 4em;
+    height: 50px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border: 1px solid #666;
+    cursor: pointer;
+}
+
+.rez {
+    background-color: #666;
+}
+
+.tablature {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #666;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.tab-string {
+    margin: 5px 0;
+    white-space: pre; /* Pour assurer que les espaces et tirets sont conservés */
+}
+
