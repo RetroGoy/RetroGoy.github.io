@@ -25,21 +25,20 @@ header > div {
   background-color: #fff;
 }
 
-.tab {
-  width: 49%;
-  height: 40px;
-  font-family: "Red Hat Text", sans-serif;
-  background-color: #11B1A9;
-  font-size: large;
-}
-
 .container {
     margin: 0;
     padding: 0;
 }
 
+.proje {
+  background-color: #fe5;
+}
+
 .gilles {
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
 }
 
 #parcours, #projets, #veille-technologique {
@@ -66,8 +65,18 @@ footer {
     }
 }
 
+.tab {
+  width: 45%;
+  margin: 0 1%;
+  height: 40px;
+  font-family: "Red Hat Text", sans-serif;
+  background-color: #11B1A9;
+  font-size: large;
+}
+
 .cvtab {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -219,6 +228,13 @@ body {
   padding: 70px 5% 70px 5%;
 }
 /* 4. Header */
+
+.proje > img {
+  height: 10ch;
+  width:auto;
+  border: #333;
+  border-radius: 5px;
+}
 
 header {
   top: 0;
@@ -388,4 +404,21 @@ a {
 
 #CV img {
   width: 100%;
+}
+
+.proje > h3 {
+  margin: 0;
+}
+
+.proje > h6 {
+  margin: 0;
+}
+
+.proje {
+  padding: 3%;
+  border-radius: 2%;
+}
+
+a {
+  margin: 0;
 }
