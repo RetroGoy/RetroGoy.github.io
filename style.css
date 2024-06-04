@@ -8,13 +8,6 @@
     font-style: normal;
 }
 
-.red-hat text-<uniquifier> {
-  font-family: "Red Hat Text", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 body, html {
     margin: 0;
     padding: 0;
@@ -71,6 +64,11 @@ footer {
     .projet iframe {
         height: 200px;
     }
+}
+
+.cvtab {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*
