@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Hezaedrus-Light';
-    src: url('font/Hezaedrus-Light.ttf.woff') format('woff'),
-         url('font/Hezaedrus-Light.ttf.svg#Hezaedrus-Light') format('svg'),
-         url('Hezaedrus-Light.ttf.eot'),
-         url('Hezaedrus-Light.ttf.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body, html {
     margin: 0;
     padding: 0;
