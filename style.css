@@ -1,419 +1,95 @@
-body, html {
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.dalle {
-  float: right;
-  margin: 0 0 10px 10px; /* haut, droite, bas, gauche */
+html, body {
+  width: 100%;
+  height: 100%;
 }
-
-header > div {
-  font-family: "Red Hat Text", sans-serif;
-  padding: 7px;
-  border-radius: 7px;
-  background-color: #fff;
-}
-
-.container {
-    margin: 0;
-    padding: 0;
-}
-
-.proje {
-  background-color: #fe5;
-}
-
-.gilles {
-    display:grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-}
-
-#parcours, #projets, #veille-technologique {
-    margin: 2em 5%;
-    padding: 2em;
-    background-color: #f9f9f9;
-}
-
-.projet iframe{
-    width: 100%;
-    height: 300px;
-    border: none;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 1em 0;
-}
-
-@media (max-width: 768px) {
-    .projet iframe {
-        height: 200px;
-    }
-}
-
-.tab {
-  width: 49%;
-  height: 40px;
-  font-family: "Red Hat Text", sans-serif;
-  background-color: #11B1A9;
-  border-radius: 5px;
-  font-size: large;
-  border: none;
-}
-
-.tab :hover {
-  box-shadow: 50px 50px 20px #303A45;
-}
-
-.cvtab {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/*
-
-    Sommaire :
-
-    1. Liens polices
-    2. Polices "h*" et "p"
-    3. Base page
-    4. Header
-    5. Entête secondaire
-    6. Sous-Titre
-    7. Tableau
-    8. Partie "le saviez vous?"
-    9. Encadré
-    10. Liste à puces
-    11. Footer
-
-*/
-/* 1. Liens polices */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-
-@font-face {
-  font-family: 'futura_ptbook';
-  src: url('Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff2') format('woff2'),
-    url('Fonts/webfontkit-20220921-100303/futuraptbook-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'futura_ptdemi';
-  src: url('Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff2') format('woff2'),
-    url('Fonts/webfontkit-20220926-100737/futurapt-demi-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'futura_ptbold';
-  src: url('Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff2') format('woff2'),
-    url('Fonts/webfontkit-20220926-093648/futuraptbold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'futura_ptlight';
-  src: url('Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff2') format('woff2'),
-    url('Fonts/webfontkit-20220926-093648/futuraptlight-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'futura_ptmedium';
-  src: url('Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff2') format('woff2'),
-    url('Fonts/webfontkit-20220926-093648/futuraptmedium-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* 2. Polices "h*" et "p" */
-a {
-    color: inherit; /* Hérite la couleur du texte de l'élément parent */
-    text-decoration: none; /* Supprime le soulignement par défaut */
-    font-family: inherit; /* Hérite la police du texte de l'élément parent */
-    font-size: inherit; /* Hérite la taille du texte de l'élément parent */
-}
-
-h1 {
-  margin-left: 15px;
-  padding: 30px 0 25px 0;
-  font-family: "Red Hat Text", sans-serif;
-
-  font-size: 56px;
-  color: #303A45;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-}
-
-h2 {
-  margin: 80px 0 40px 0;
-  font-family: "Red Hat Text", sans-serif;
-
-  font-size: 45px;
-  color: #11B1A9;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-}
-
-h3 {
-  margin: 67px 7% 0 7%;
-  font-family: "Red Hat Text", sans-serif;
-
-  font-size: 37px;
-  color: #303A45;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-}
-
-h4 {
-  margin: 50px 0;
-  font-family: "Red Hat Text", sans-serif;
-  font-size: 25px;
-  color: #62788E;
-  text-decoration: underline;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-}
-
-h5 {
-  margin: 40px 0;
-  font-family: "Red Hat Text", sans-serif;
-  font-size: 22px;
-  color: #303A45;
-  text-decoration: underline;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-}
-
-p {
-  margin: 20px 0;
-  font-family: "Red Hat Text", sans-serif;
-  font-size: 20px;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-  line-height: 1.5em;
-}
-
-/* 3. Base page */
 
 body {
-  margin: 0;
-  overflow-x: hidden;
-  background-color: #E7EBEF;
-}
-
-.container {
-  background-color: #FFF;
-  margin: 0 5% 0 5%;
-  padding: 70px 5% 70px 5%;
-}
-/* 4. Header */
-
-.proje > img {
-  height: 10ch;
-  width:auto;
-  border: #333;
-  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  display: flex;
   width: 100%;
+  height: 3ch;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  z-index: 1;
+}
+
+#bureau {
+  background: linear-gradient(to bottom right, red, orange);
+  width: 100%;
+  height: 100vh;
+  padding-top: 3ch;
+  padding-bottom: 7ch;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 7ch;
+  background-color: rgba(0, 128, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10px;
+  z-index: 10;
+}
+
+.icon {
+  background-color: yellow;
+  margin: 10px;
+  width: 34px;
+  height: 34px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.hidden {
+  display: none;
+}
+
+#popup-window {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  z-index: 2;
+  resize: both;
+  overflow: hidden;
+}
+
+.popup-header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  cursor: move;
+  display: flex;
   justify-content: space-between;
 }
 
-header img {
-  left: 0;
-  height: 65px;
-  margin: 30px 100px;
+.close-btn {
+  cursor: pointer;
 }
 
-.navbar {
-  right: 0;
-  display: flex;
-  padding-right: 3%;
-  background-color: #303A45;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar a {
-  text-decoration: none;
-  list-style-type: none;
-  display: flex;
-  font-family: "Red Hat Text", sans-serif;
-  font-size: 22px;
-  color: #FFFFFF;
-  margin-top: 50px;
-}
-
-.navbar li a:hover {
-  color: #C3CCD5;
-}
-
-.b2top {
-  color: #303A45;
-  background-color: #E7EBEF;
-  font-size: 30px;
-  text-decoration: none;
-  list-style-type: none;
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-  border-radius: 10px;
-  padding: 10px 14px;
-}
-
-.b2top:hover {
-  animation: flaich 0.15s linear 0s 1 normal forwards;
-}
-
-@keyframes flaich {
-  from {
-    color: #303A45;
-    background-color: #E7EBEF;
-  }
-
-  to {
-    color: #E7EBEF;
-    background-color: #303A45;
-  }
-}
-
-/* Cliquable */
-.hyptxt {
-  text-decoration: none;
-  color: #FB957D;
-  font-size: 23px;
-}
-
-.hyptxt:hover {
-  padding-left: 3px;
-  border-left: 5px solid #FB957D;
-  animation: hypr 0.02s linear 0s 1 normal forwards;
-}
-
-@keyframes hypr {
-  from {
-  border-left: 0px solid #FB957D;
-  }
-
-  to {
-  border-left: 5px solid #FB957D;
-  }
-}
-
-/*pour l'hypertext dans du texte*/
-.hyptxte {
-  text-decoration: none;
-  color: #FB957D;
-  font-size: 23px;
-}
-
-.hyptxte:hover {
-  border-bottom: #11B1A9 solid 3px;
-}
-.nohyp {
-  list-style-type: none;
-  text-decoration: none;
-}
-
-.nohyp p {
-  box-shadow: 3px 6px 2px #CCC;
-}
-
-.nohyp:hover p {
-  animation: clicksomm 0.04s linear 0s 1 normal forwards;
-}
-
-
-@keyframes clicksomm {
-  from {
-    box-shadow: 5px 5px 5px #CCC;
-  }
-
-  to {
-    box-shadow: 0px 0px 0px #CCC;
-  }
-}
-/* 11. Footer */
-footer {
-  display: flex;
-  align-items: center;
-  background-color: #303A45;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 76px;
-  padding-left: 10%;
-}
-
-footer p {
-  color: #FFFFFF;
-  font-size: 22px;
-  margin: 0 20px;
-}
-
-footer img {
-  height: 20px;
-}
-
-header {
-  display : flex;
-  flex-direction: row;
-  justify-content: space-around;
-    padding: 2em 0;
-}
-
-a {
-  margin: 50px 0;
-  font-family: "Red Hat Text", sans-serif;
-  font-size: 25px;
-  color: #62788E;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-}
-
-.gilles, #projets {
-  margin : 0;
-}
-
-#CV img {
+#popup-window iframe {
   width: 100%;
-}
-
-.proje > h3 {
-  margin: 0;
-}
-
-.proje > h6 {
-  margin: 0;
-}
-
-.proje {
-  padding: 3%;
-  border-radius: 2%;
-}
-
-a {
-  margin: 0;
+  height: calc(100% - 40px);
+  border: none;
 }

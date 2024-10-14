@@ -10,161 +10,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <div><a href="#apropos">a propos</a></div>
-        <div><a href="#CV">compétences et experience</a></div>
-        <div><a href="#projets">projets</a></div>
-        <div><a href="#veille">Veille Technologique</a></div>
     </header>
-    <div class="container">
-        <section id="accueil">
-            <h1>Nathanaël Naveau</h1>
-            <h3>BTS SIO option SLAM en alternance.</h3>
-        </section>
 
-        <section id="apropos">
-            <h2>A propos</h2>
-            <h3>Je m'appel Nathanaël,</h3>
-            <p>Je suis actuellement en dernière année d'un BTS SIO option SLAM en alternance. 
-                Je suis à l'école chez Maestris BTS, à Lyon et j'effectue mon alternance chez Factorielles, 
-                une entreprise spécialisée dans la conception d'applications à destination d'experts comptables.
-            </p>
-        </section>
+    <section id="bureau">
+        <div id="popup-window" class="hidden">
+            <div class="popup-header">
+                <span class="close-btn" onclick="closePopup()">✖</span>
+            </div>
+            <iframe src=""></iframe>
+        </div>
+    </section> 
 
-        <section id="CV">
-            <h3>Mon CV</h3>
-            <img src="assets/CV.png">
-        </section>
+    <footer>
+        <a href="#" data-url="Projets/GPS/index.html" class="icon"></a>
+        <a href="#" data-url="https://demoper.factorielles.fr/" class="icon">></a> 
+        <a href="#" data-url="Projets/Translateur2000/BassAssIst.html" class="icon"></a>
+    </footer>
 
-        
-        <h2>Mes Projets</h2>
-        <section id="projets" class="gilles">
-        <a href="Projets/GPS.html">
-            <article class="GPS proje">
-                <h3>Guide de la Protection sociale</h3>
-                <h6>Projet d'entreprise<br>(Septembre 2022 - Janvier 2023)</h6>
-            </article>
-        </a>
-        <a href="Projets/PER.html">
-            <article class="PER proje">
-                <h3>Plan d'Epargne Retraite</h3>
-                <h6>Projet d'entreprise<br>(Août 2023 - maintenant)</h6>
-            </article>
-        </a>
-        <a href="Projets/Tranlateur2000/BassAssIst.html">
-            <article class="BassAssIst proje">
-                <h3>Translateur 2000</h3>
-                <h6>Projet personnel<br>(Mai 2024 - en developement)</h6>
-            </article>
-        </a>
-        <a href="Projets/GSB.html">
-            <article class="GSB proje">
-                <h3>GSB</h3>
-                <h6>Projet d'école<br>(Septembre 2023 - Décembre 2023)</h6>
-            </article>
-        </a>
-        </section>
-
-        <section div="cvtab">
-        <a href="tabdesynth.pdf" target="_blank">
-            <button class="tab">Tableau de Synthèse</button>
-        </a>
-        <a href="cv.pdf" target="_blank">
-            <button class="tab">Curriculum Vitae</button>
-        </a>
-        </section>
-
-        <section id="veille">
-            <h2>Veille Technologique</h2>
-            <h3><i>Simulation Computationnelle des Liquides et des Fluides en Biologie</i></h3>
-                <h3>Un Aperçu de l'Évolution Technologique, des Applications et des Avancées</h3>
-                    <h4>Introduction :</h4>
-                    <p>
-                        La simulation computationnelle des liquides et des fluides représente un domaine crucial en biologie, permettant de modéliser des 
-                        phénomènes complexes tels que les flux sanguins, les interactions moléculaires et la dynamique des fluides cellulaires. 
-                        Cet article propose une veille technologique approfondie sur les avancées récentes, les applications pratiques et les 
-                        défis futurs dans ce domaine.
-                    </p>
-                
-                <h3>Fondements Technologiques et Innovations</h3>
-                    <h4>Méthodes de Simulation</h4>
-                    <p>
-                        Des modèles tels que la dynamique des fluides computationnelle (CFD) et la simulation moléculaire sont largement utilisés. 
-                        Des progrès significatifs ont été réalisés dans l'amélioration de la précision et la réduction du temps de calcul.
-                    </p>
-                    <h4>Avancées dans les Algorithmes</h4>
-                    <p>
-                        L'intégration de l'intelligence artificielle et de l'apprentissage automatique a permis d'améliorer 
-                        la prédiction des comportements fluidiques dans des contextes biologiques complexes.
-                    </p>
-                
-                <h3>Applications en Biologie</h3>
-                    <h4>Modélisation du Flux Sanguin</h4>
-                    <p>
-                        Essentielle pour comprendre les maladies cardiovasculaires, la simulation permet de prédire les effets de différents 
-                        traitements et interventions chirurgicales.
-                    </p>
-                    <h4>Étude des Protéines et Interactions Moléculaires</h4>
-                    <p>
-                        La simulation des liquides offre des insights précieux dans la compréhension des mécanismes moléculaires et peut contribuer au 
-                        développement de nouveaux médicaments.
-                    </p>
-
-                <h3>Défis et Perspectives</h3>
-                    <h4>Complexité des Systèmes Biologiques</h4>
-                    <p>
-                        La modélisation précise de systèmes biologiques complexes reste 
-                        un défi majeur, nécessitant des données de haute qualité et des modèles computationnels avancés.
-                    </p>
-                    <h4>Intégration Interdisciplinaire</h4>     <img src="dalle.webp" class="dalle" width="333px"> 
-
-                    <p>
-                        La collaboration entre biologistes, chimistes, et informaticiens est 
-                        essentielle pour tirer pleinement parti des technologies de simulation.
-                    </p>
-                
-                <h3>Études de Cas et Résultats Marquants</h3>
-                    <p>
-                        Des exemples spécifiques d'études réussies utilisant la simulation computationnelle pour résoudre 
-                        des problèmes biologiques concrets seront présentés, soulignant l'impact et l'efficacité de cette 
-                        technologie.
-                    </p>
-                
-                <h3>Perspectives d'Avenir</h3>
-                    <h4>Technologies Émergentes</h4>
-                    <p>
-                        L'évolution continue des capacités de calcul et des algorithmes promet de 
-                        rendre les simulations encore plus précises et accessibles.
-                    </p>
-                    <h4>Applications Potentielles</h4>
-                    <p>
-                        La simulation computationnelle est prête à jouer un rôle clé dans des 
-                        domaines tels que la médecine personnalisée et la biologie synthétique.
-                    </p>
-                
-                <h3>Conclusion</h3>
-                <p>
-                    La simulation computationnelle des liquides et des fluides en biologie représente un champ d'étude en 
-                    pleine expansion, offrant des perspectives prometteuses pour la recherche et la pratique médicale. 
-                    Son évolution continue nécessite une veille technologique régulière pour rester à la pointe de l'innovation.
-                </p>
-                
-                <h3>Sources</h3>
-                    
-                    <p>"Dynamique des Fluides Computationnelle en Biologie" - Journal of Computational Biology</p>
-                    <p>"Simulation Moléculaire et ses Applications en Biologie" - Nature Reviews Molecular Cell Biology</p>
-                    <p>"Intégration de l'IA dans la Simulation des Fluides Biologiques" - IEEE Transactions on Medical Imaging</p>
-                    <p>"Études de Cas en Simulation Computationnelle en Biologie" - Bioinformatics</p>
-                    <p>"Avenir des Technologies de Simulation en Biologie" - Trends in Biotechnology</p>
-        </section>
-
-        <footer>
-            <p>Tous droits reservés.</p><p> Contactez-moi : <a href="mailto:n.naveau@icloud.com">n.naveau@icloud.com</a></p><p><a href="#accueil">retourner à l'accueil</a></p>
-        </footer>
-
-        <h2>Mon Avenir...</h2>
-        
-    </div>
     <script src="script.js"></script>
 </body>
 </html>
